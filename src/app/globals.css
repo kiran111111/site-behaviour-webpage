@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'opensaucesans-bold';
+  src: url('../../public/fonts/OpenSauceSans-Bold.ttf') format('truetype'); /* Update the URL and format as needed */
+  /* You can specify other font properties, such as font-weight and font-style, if needed */
+}
+
+@font-face {
+  font-family: 'opensaucesans-semibold';
+  src: url('../../public/fonts/OpenSauceSans-SemiBold.ttf') format('truetype'); /* Update the URL and format as needed */
+  /* You can specify other font properties, such as font-weight and font-style, if needed */
+}
+
+@font-face {
+  font-family: 'opensaucesans';
+  src: url('../../public/fonts/OpenSauceSans-Regular.ttf') format('truetype'); /* Update the URL and format as needed */
+  /* You can specify other font properties, such as font-weight and font-style, if needed */
+}
+
+@font-face {
+  font-family: 'opensaucesans-medium';
+  src: url('../../public/fonts/OpenSauceSans-Medium.ttf') format('truetype'); /* Update the URL and format as needed */
+  /* You can specify other font properties, such as font-weight and font-style, if needed */
+}
+
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,11 +45,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family:   'opensaucesans', sans-serif;
+  background:  #090909;
+  color : white;
+}
+
+
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
 }
