@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Home', href: '/home', current: true },
   { name: 'About', href: '/about', current: false },
   { name: 'Pricing', href: '/pricing', current: false },
-  { name: 'Contact Us', href: '/contactus', current: false },
+  { name: 'Contact', href: '/contact', current: false },
 ]
 
 const solutions = [
