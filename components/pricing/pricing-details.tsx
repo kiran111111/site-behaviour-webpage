@@ -21,21 +21,21 @@ export default function PricingDetails() {
       <div className="px-0 pb-20 bg-[#0a0a0a]  mx-auto ">
 
         <div className=" w-full pt-24  mb-0">
-            <div className=" pb-12 relative bg-cover bg-opacity-25 bg-no-repeat bg-bottom bg-[url('/assets/home/section-bg.svg')] mb-10 mx-auto text-center md:mb-12">
+            <div className=" pb-12 relative bg-cover bg-opacity-25 bg-no-repeat bg-bottom bg-[url('/assets/navbar/hero-background.png')] mb-10 mx-auto text-center md:mb-12">
 
-               <div>
-                  <p className="inline-block px-3 py-px mb-6 mt-8 text-xs font-semibold  text-zinc-300  rounded-full">
+               <div data-aos="fade-up">
+                  <p className="inline-block px-3 py-px mb-4 mt-12 sm:text-lg  text-sm font-semibold  text-zinc-300  rounded-full">
                      We guarantee the best service for best price!
                   </p>
                </div>
-               <h2 className="max-w-lg mb-8 font-customsemibold text-3xl font-bold leading-none tracking-tight text-white sm:text-5xl mx-auto">
-                  Best Web Analytics, <br></br>for the Best Price.
+               <h2 data-aos="fade-up" style={{lineHeight : '1.2'}} className="max-w-2xl mb-8 font-custombold text-4xl font-bold leading-none tracking-tight text-white sm:text-6xl mx-auto">
+                  Best Web Analytics,<br></br>for the Best Price.
                </h2>
                
             </div>
         </div>
 
-        <div className="text-base text-white md:text-lg">
+        <div data-aos="fade-up" className="text-base text-white md:text-lg">
            <div className="grid lg:grid-cols-3 grid-cols-1 justify-around gap-6  items-center   mb-12 mx-12">
 
              <div className=' text-center'>
@@ -71,14 +71,14 @@ export default function PricingDetails() {
              </div>
 
            </div>
-       </div>
+        </div>
 
-        <div className="grid px-0 sm:px-6 xl:max-w-screen-xl  gap-10 row-gap-5  sm:row-gap-5 lg:grid-cols-3 sm:mx-auto">
+        <div data-aos="fade-up"  className="grid px-3 sm:px-6 xl:max-w-screen-xl  row-gap-5  sm:row-gap-5 lg:grid-cols-3 sm:mx-auto">
 
-          <div className="flex flex-col  p-6 transition-shadow duration-300 bg-white  rounded-lg shadow-sm  hover:shadow">   
+          <div className="flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow">   
             <div className="text-left text-black">
                 <div className="mr-1 text-3xl font-customsemibold">Business</div>
-                <div className="mt-3 space-y-3 pb-5 text-gray-700 text-sm border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
+                <div className="mt-3 space-y-3 pb-5 text-gray-700 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
                 <p className='font-custombold text-4xl mt-6 mb-4'>$11.89</p>
                 <p className='text-gray-700 font-customsemimedium text-sm'>Per month</p>
             </div>
@@ -117,12 +117,12 @@ export default function PricingDetails() {
             </div>
           </div>
 
-          <div className="flex flex-col  p-6 transition-shadow duration-300 bg-gray-700  rounded-lg shadow-sm  hover:shadow">   
+          <div className="flex flex-col  p-6 transition-shadow duration-300 bg-gray-700 mb-6 lg:border-r-2 lg:border-slate-500  lg:rounded-r-none rounded-lg   shadow-sm  hover:shadow">   
             <div className="text-left text-white">
                 <div className="mr-1 text-3xl font-customsemibold">Business</div>
-                <div className="mt-3 space-y-3 pb-5 text-gray-100 text-sm border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
+                <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
                 <p className='font-custombold text-4xl mt-6 mb-4'>$11.89</p>
-                <p className='text-gray-300 font-customsemimedium text-sm'>Per month</p>
+                <p className='text-gray-300 font-customsemimedium text-md'>Per month</p>
             </div>
 
             <div className='mt-4'>
@@ -159,12 +159,12 @@ export default function PricingDetails() {
             </div>
           </div>
 
-          <div className="flex flex-col  p-6 transition-shadow duration-300 bg-gray-700  rounded-lg shadow-sm  hover:shadow">   
+          <div className="flex flex-col  p-6 transition-shadow duration-300 bg-gray-700  mb-6  rounded-r-lg :rounded-l-none rounded-lg shadow-sm  hover:shadow">   
             <div className="text-left text-white">
                 <div className="mr-1 text-3xl font-customsemibold">Enterprise</div>
-                <div className="mt-3 space-y-3 pb-5 text-gray-100 text-sm border-b-2 border-zinc-200">For Enterprise users that require a custom solution</div>
-                <p className='font-custombold text-4xl mt-6 mb-4'>$11.89</p>
-                <p className='text-gray-300 font-customsemimedium text-sm'>Per month</p>
+                <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">For Enterprise users that require a custom solution</div>
+                <p className='font-custombold text-4xl mt-6 mb-4'>Contact Us</p>
+                <p className='text-gray-300 font-customsemimedium text-sm'>Lets talk!</p>
             </div>
 
             <div className='mt-4'>

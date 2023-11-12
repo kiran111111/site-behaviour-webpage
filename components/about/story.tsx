@@ -3,12 +3,12 @@
 export default function Story() {
     return (
       <div className="px-4 py-16  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-screen-lg sm:text-center sm:mx-auto">
+        <div className="max-w-screen-lg text-center sm:mx-auto">
          
-          <h2 className="mb-4 font-sans text-3xl font-customsemibold tracking-tight text-white sm:text-4xl sm:leading-none">
+          <h2 data-aos="fade-up" data-aos-duration="700" className=" mb-4  text-3xl font-customsemibold tracking-tight text-white sm:text-4xl sm:leading-none">
             Our Story
           </h2>
-          <p className="text-base text-[#838383] md:text-lg sm:px-4">
+          <p data-aos="fade-up" data-aos-duration="700" style={{lineHeight : '1.6'}} className="text-md text-[#838383] sm:text-xl sm:px-4">
             
           Our Story began not in a boardroom, but from a genuine concern for the digital landscape we all navigate.
            We realized the online world was full of analytics platforms that were complex, 

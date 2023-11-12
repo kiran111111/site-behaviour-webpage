@@ -5,7 +5,7 @@ import topfeatureicon from "../../public/assets/home/topfeatures/top-feature-ico
 export default function TopFeaturesSection(){
     return (
         <div className="bg-white">
-            <div className="mx-auto bg-white max-w-7xl  px-8 sm:px-6 lg:px-4 md:py-24 py-14">
+            <div className="mx-auto bg-white max-w-7xl  px-4 sm:px-6 lg:px-4 md:py-24 py-14">
                 <p className="font-custombold text-center text-sky-700 pb-4">TOP FEATURES 🔥 </p>
                 <h2 className=" text-black font-customsemibold text-5xl text-center pb-14 leading-0"> Unlocking Our Analytics <br></br> Toolbox. </h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 gap-10">

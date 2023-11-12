@@ -5,7 +5,7 @@ import topfeatureicon from "../../public/assets/home/topfeatures/top-feature-ico
 export default function GetStartedSection(){
     return (
         <div className="bg-white">
-            <div className="mx-auto  bg-white max-w-7xl  px-4 sm:px-6 lg:px-4 md:py-24 py-14">
+            <div className="mx-auto  bg-white max-w-7xl  px-3 sm:px-6 lg:px-4 md:py-24 py-14">
             
                 <h2 className=" text-black  md:text-5xl text-3xl font-customsemibold text-center pb-10"> Get Started in 3 <br></br>  easy steps ! </h2>
               

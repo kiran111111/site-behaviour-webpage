@@ -3,11 +3,11 @@
 export default function ContactForm(){
     return(
 
-        <div className="bg-white">
-            <div className="mx-auto md:mt-96 mt-80  max-w-4xl sm:px-8  px-4  lg:px-4 md:py-24  py-16">
+        <div className="bg-white ">
+            <div className="mx-auto md:mt-96 mt-96  max-w-4xl sm:px-8  px-4  lg:px-4 md:py-24  py-16">
                 <form  action='https://submit-form.com/9cYesnOA' className="bg-[#DBFFDC] rounded-2xl px-6 pt-4 pb-2 font-customregular ">
 
-                    <h2 className="font-custombold text-3xl text-black pb-8 pt-4">General Inquiries</h2>
+                    <h2 className="font-custombold text-3xl  text-black pb-8 pt-4">General Inquiries</h2>
 
 
                     <input

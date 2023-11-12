@@ -2,9 +2,9 @@
 
 export default function CTASection() {
     return (
-      <div className="lg:my-16 lg:mx-6 mx-2 my-12">
+      <div className="lg:my-16 lg:mx-6 mx-3 sm:mx-6 my-12">
 
-        <div className="px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0 lg:py-20">
+        <div className="px-0 sm:px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                
                 <h2 className="max-w-lg mb-6 font-customsemibold text-4xl  leading-none tracking-tight text-white sm:text-5xl md:mx-auto">
