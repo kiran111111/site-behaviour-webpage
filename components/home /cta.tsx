@@ -2,7 +2,7 @@
 
 export default function CTASection() {
     return (
-      <div className="lg:my-16 lg:mx-6 mx-3 sm:mx-2 my-12">
+      <div className="lg:my-16 lg:mx-6 px-4 sm:mx-2 my-12">
 
         <div className="px-0 sm:px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -60,47 +60,46 @@ export default function CTASection() {
         </div>
 
 
-        <div className="relative rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
-            <div className="max-w-xl mx-auto lg:max-w-screen-xl">
-            <div className="mb-16 lg:max-w-lg lg:mb-0">
-                <div className="max-w-xl mb-6">
-               
-                <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl  tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    24/7 Support {' '}
-                    <br className="hidden md:block" />
-                    for every plan{' '}
-                  
-                </h2>
-                <p data-aos="fade-up" data-aos-duration="600" className="text-base text-gray-700 md:text-lg">
-                    Whether it's a question, concern, or technical issue, our dedicated team 
-                    is here to help at any hour. Count on us for reliable, around-the-clock assistance.
-                </p>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="600" className="flex items-center sm:flex-row flex-col ">
-                    <a
-                        href="/"
-                        className="inline-flex items-center mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
-                    >
-                        Get started
-                    </a>
-                    <a
-                        href="/"
-                        style={{borderWidth : '1px'}}
-                        className="inline-flex items-center  mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md border-black hover:bg-black hover:text-white focus:shadow-outline focus:outline-none"
-                    >
-                        Learn more
-                    </a>
-                 
+        <div className="relative flex lg:flex-row flex-col rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
+            <div className=" mx-auto lg:max-w-screen-xl">
+                <div className="mb-8 lg:max-w-lg lg:mb-0">
+                    <div className="max-w-xl mb-6">
+                
+                    <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl  tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                        24/7 Support {' '}
+                        <br className="hidden md:block" />
+                        for every plan{' '}
+                    
+                    </h2>
+                    <p data-aos="fade-up" data-aos-duration="600" className="text-base text-gray-700 md:text-lg">
+                        Whether it's a question, concern, or technical issue, our dedicated team 
+                        is here to help at any hour. Count on us for reliable, around-the-clock assistance.
+                    </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="600" className="flex items-center sm:flex-row flex-col ">
+                        <a
+                            href="/"
+                            className="inline-flex items-center mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
+                        >
+                            Get started
+                        </a>
+                        <a
+                            href="/"
+                            style={{borderWidth : '1px'}}
+                            className="inline-flex items-center  mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md border-black hover:bg-black hover:text-white focus:shadow-outline focus:outline-none"
+                        >
+                            Learn more
+                        </a>
+                    
+                    </div>
                 </div>
             </div>
-            </div>
-            <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-            <img
-                data-aos="fade-up" data-aos-duration="600"
-                src="/assets/home/cta.png"
-                className="object-cover object-top w-full  max-w-xl -mb-16 rounded  lg:ml-64 xl:ml-8 lg:-mb-12 xl:-mb-12 lg:h-auto lg:max-w-screen-md"
-                alt=""
-            />
+            <div>
+                <img
+                    className="object-cover w-full h-60 mb-4 sm:mb-10 lg:mb-0 rounded shadow-lg sm:h-96"
+                    src="https://i0.wp.com/www.titanui.com/wp-content/uploads/2021/08/03/Professional-Dashboard-UI-Design-Figma.jpg?ssl=1"
+                    alt=""
+                />
             </div>
         </div>
       </div>
