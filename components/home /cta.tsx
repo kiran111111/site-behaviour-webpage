@@ -65,8 +65,8 @@ export default function CTASection() {
             <div className="mb-16 lg:max-w-lg lg:mb-0">
                 <div className="max-w-xl mb-6">
                
-                <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    24/7 Support
+                <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl  tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                    24/7 Support {' '}
                     <br className="hidden md:block" />
                     for every plan{' '}
                   
