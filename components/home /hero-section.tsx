@@ -26,14 +26,15 @@ export default function HeroSection(){
                               
                                   <div  className="banner-image-wrapper">
 
-
-                                     <div   className=" banner-card-flex-wrap m-auto lg:mt-0 mt-20 md:w-[550px]  md:h-[600px] ">
+                                   <Tilt scale={1.1} transitionSpeed={2500} >
+                                     <div   className=" banner-card-flex-wrap m-auto lg:mt-0 mt-20 w-[330px] md:w-[550px]  md:h-[600px] ">
+                                     
                                         <div className="home-v2-banner-left-card-wrap gap-y-5 md:gap-y-12 ">                                                  
                                          <Tilt > 
-                                            <img  src="/assets/home/hero/hero-5.png" loading="lazy" alt="" className=" rounded-lg  w-32 md:w-56 md:h-56 h-32 self-end "></img>                                      
+                                            <img  src="/assets/home/hero/hero-5.png" loading="lazy" alt="" className=" rounded-lg  w-36 md:w-56 md:h-56 h-32 self-end "></img>                                      
                                          </Tilt>
                                          <Tilt > 
-                                            <img src="/assets/home/hero/hero-4.png" loading="lazy" alt="" className="w-32 md:w-56 md:h-44 h-40 rounded-lg " ></img>
+                                            <img src="/assets/home/hero/hero-4.png" loading="lazy" alt="" className="w-36 md:w-56 md:h-44 h-40 rounded-lg " ></img>
                                          </Tilt>
                                         </div>
                                         <div className="home-v2-banner-right-card-wrap ">
@@ -44,9 +45,10 @@ export default function HeroSection(){
                                                <img src="/assets/home/hero/hero-1.png" loading="lazy" alt="" className=" rounded-lg md:w-72  w-[10rem] md:h-56 mt-10 md:mt-0" />
                                             </Tilt>
                                         </div>
+                                       
 
                                     </div>
-                                  
+                                  </Tilt>
 
                               
                                     <div className="banner-blur-shape-1 md:w-56 w-8"></div>

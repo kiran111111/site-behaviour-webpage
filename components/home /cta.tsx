@@ -2,20 +2,20 @@
 
 export default function CTASection() {
     return (
-      <div className="lg:my-16 lg:mx-6 mx-3 sm:mx-6 my-12">
+      <div className="lg:my-16 lg:mx-6 mx-3 sm:mx-2 my-12">
 
         <div className="px-0 sm:px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                
-                <h2 className="max-w-lg mb-6 font-customsemibold text-4xl  leading-none tracking-tight text-white sm:text-5xl md:mx-auto">
+                <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl  leading-none tracking-tight text-white sm:text-5xl md:mx-auto">
                    Privacy is always our priority
                 </h2>
-                <p className="text-base text-zinc-500 md:text-lg">
+                <p data-aos="fade-up" data-aos-duration="600" className="text-base text-zinc-500 md:text-lg">
                     We want to highlight that your data is yours, 
                     and we do not use it for any purpose without your explicit consent.
                 </p>
             </div>
-            <div className="grid gap-8 row-gap-5 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
+            <div data-aos="fade-up" data-aos-duration="600" className="grid gap-8 row-gap-5 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
 
                 <div className="flex text-center flex-col bg-zinc-900 border-none  justify-between p-4 border rounded-3xl shadow-sm">
                     <div className="">
@@ -60,23 +60,23 @@ export default function CTASection() {
         </div>
 
 
-        <div className="relative rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+        <div className="relative rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
             <div className="max-w-xl mx-auto lg:max-w-screen-xl">
             <div className="mb-16 lg:max-w-lg lg:mb-0">
                 <div className="max-w-xl mb-6">
                
-                <h2 className="max-w-lg mb-6 font-customsemibold text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                     24/7 Support
                     <br className="hidden md:block" />
                     for every plan{' '}
                   
                 </h2>
-                <p className="text-base text-gray-700 md:text-lg">
+                <p data-aos="fade-up" data-aos-duration="600" className="text-base text-gray-700 md:text-lg">
                     Whether it's a question, concern, or technical issue, our dedicated team 
                     is here to help at any hour. Count on us for reliable, around-the-clock assistance.
                 </p>
                 </div>
-                <div className="flex items-center sm:flex-row flex-col ">
+                <div data-aos="fade-up" data-aos-duration="600" className="flex items-center sm:flex-row flex-col ">
                     <a
                         href="/"
                         className="inline-flex items-center mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
@@ -96,6 +96,7 @@ export default function CTASection() {
             </div>
             <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
             <img
+                data-aos="fade-up" data-aos-duration="600"
                 src="/assets/home/cta.png"
                 className="object-cover object-top w-full  max-w-xl -mb-16 rounded  lg:ml-64 xl:ml-8 lg:-mb-12 xl:-mb-12 lg:h-auto lg:max-w-screen-md"
                 alt=""

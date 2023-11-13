@@ -64,7 +64,7 @@ export default function Navbar() {
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-0 sm:px-2 lg:px-2 ">
-              <div className="relative flex h-12 items-center justify-between ">
+              <div className="relative flex lg:py-2 py-2 items-center justify-between ">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="relative inline-flex ml-1 items-center justify-center rounded-md md:p-2 p-2  hover:text-white">
@@ -95,8 +95,8 @@ export default function Navbar() {
                           href={item.href}
                           onClick={() => handleItemClick(item.value)}
                           className={classNames(
-                            router.pathname === item.href ? 'text-gray-300 bg-gray-700' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 py-1.5 text-sm '
+                            router.pathname === item.href ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
                           )}
                           aria-current={item.current ? 'page' : undefined}
                         >
@@ -108,7 +108,8 @@ export default function Navbar() {
                       <Popover className="relative">
                         <Popover.Button 
                              className={classNames(
-                                router.pathname === '/solution' ? 'text-gray-300 bg-gray-700' : 'text-gray-300' , "border-none outline-none inline-flex items-center gap-x-1 text-sm font-customregular py-1 px-3 rounded-3xl leading-6 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                router.pathname === '/solution' ? 'text-white bg-gray-700' : 'text-white' , 
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
                           {/* <span className={classNames(
@@ -127,9 +128,9 @@ export default function Navbar() {
                           leaveFrom="opacity-100 translate-y-0"
                           leaveTo="opacity-0 translate-y-1"
                         >
-                          <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
+                          <Popover.Panel className="absolute  left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 pr-8">
                             <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                              <div className="p-4">
+                              <div className="lg:p-4 p-2">
                                 {solutions.map((item) => (
                                   <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                     <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
@@ -162,7 +163,7 @@ export default function Navbar() {
 
                   {/* Profile dropdown */}
 
-                  <button className='bg-green-500 text-xs md:text-md text-black hover:bg-white hover:text-black font-custombold py-2 px-3 rounded-3xl'>
+                  <button className='bg-green-400 text-xs  sm:text-sm lg:text-lg text-black hover:bg-white hover:text-black font-custombold lg:font-custommedium py-2 md:px-3 px-2 rounded-3xl'>
                       Get Started
                   </button>
 

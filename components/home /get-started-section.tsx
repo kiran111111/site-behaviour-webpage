@@ -7,9 +7,9 @@ export default function GetStartedSection(){
         <div className="bg-white">
             <div className="mx-auto  bg-white max-w-7xl  px-3 sm:px-6 lg:px-4 md:py-24 py-14">
             
-                <h2 className=" text-black  md:text-5xl text-3xl font-customsemibold text-center pb-10"> Get Started in 3 <br></br>  easy steps ! </h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" className=" text-black  md:text-5xl text-3xl font-customsemibold text-center pb-10"> Get Started in 3 <br></br>  easy steps ! </h2>
               
-                <div className="relative">
+                <div data-aos="fade-up" data-aos-duration="600" className="relative">
                     <div className="relative grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 gap-10">
                     
                         <div className="">
