@@ -6,7 +6,7 @@ export default function CTA2Section() {
         <div className="md:py-28 pt-12 py-4 mx-auto  text-white bg-[url('/assets/home/section-bg.svg')] bg-transparent rounded-2xl  lg:max-w-7xl">
           <div className="flex relative  flex-col  mb-16 text-center sm:mb-0">
            
-            <div className="max-w-lg mx-auto bg-transparent mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+            <div className="max-w-lg mx-auto bg-transparent px-2 mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
               <h2 data-aos="fade-up" data-aos-duration="700" className="max-w-lg mb-6 font-customsemibold text-2xl md:text-5xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">         
                 Ready to get Started ?
               </h2>
