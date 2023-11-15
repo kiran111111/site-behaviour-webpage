@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar"
 import HeroSection from "../components/home /hero-section"
+import MainFeatures from "../components/home /main-features"
 import TopFeaturesSection from "../components/home /top-features-section"
 import AllFeaturesSection from "../components/home /all-features-section"
 import GetStartedSection from "../components/home /get-started-section"
@@ -13,6 +14,7 @@ export default function Home() {
     
               <Navbar />
               <HeroSection />
+              <MainFeatures />
               <TopFeaturesSection />
               <AllFeaturesSection />
               <GetStartedSection />

@@ -60,7 +60,7 @@ export default function CTASection() {
         </div>
 
 
-        <div className="relative flex lg:flex-row flex-col rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
+        <div className="relative flex lg:flex-row flex-col rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-16 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
             <div className=" mx-auto lg:max-w-screen-xl">
                 <div className="mb-8 lg:max-w-lg lg:mb-0">
                     <div className="max-w-xl mb-6">
