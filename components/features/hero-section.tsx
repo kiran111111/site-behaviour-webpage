@@ -7,7 +7,7 @@ export default function HeroSection(){
         <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
 
              <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="700">
                      <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
                          Heatmaps
                     </h1>
@@ -17,7 +17,7 @@ export default function HeroSection(){
                       </p>
                       <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="700">
 
                      <div className="image-wrapper mx-4">
                         

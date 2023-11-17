@@ -5,7 +5,7 @@ export default function AllFeatures(){
         <div>
 
                <div className="bg-green-200">
-                <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
+                <div data-aos="fade-up" data-aos-duration="700" className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
                     <div className="grid gap-4 row-gap-3 lg:grid-cols-3 sm:grid-cols-2 ">
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
@@ -33,7 +33,7 @@ export default function AllFeatures(){
 
  
             <div className="px-4 py-24  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28 lg:pb-36 ">
-                <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                <div data-aos="fade-up" data-aos-duration="700" className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <div>
                     <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-200 uppercase rounded-full bg-teal-accent-400">
                         HIGHLIGHTS
@@ -47,7 +47,7 @@ export default function AllFeatures(){
                     Unlock a world of supplementary features designed to supercharge your analytics experience.
                     </p>
                 </div>
-                <div className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">

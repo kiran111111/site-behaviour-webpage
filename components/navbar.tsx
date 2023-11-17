@@ -61,12 +61,12 @@ export default function Navbar() {
 
   return (
     <div className='mx-auto items-center'>
-      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[60%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
+      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[70%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-0 sm:px-2 lg:px-2 ">
               <div className="relative flex lg:py-2 py-2 items-center justify-between ">
-                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <div className="absolute sm:relative inset-y-0 left-0 flex items-center lg:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="relative inline-flex ml-1 items-center justify-center rounded-md md:p-2 p-2  hover:text-white">
                     <span className="absolute -inset-0.5" />
@@ -87,7 +87,7 @@ export default function Navbar() {
                     />
                   </div>
 
-                  <div className="hidden sm:ml-6 sm:block   ">
+                  <div className="hidden sm:ml-6 lg:block   ">
                     <div className="flex  space-x-3 ">
             
                       {navigation.map((item) => (
@@ -172,7 +172,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="md:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2 border-b-2 border-gray-600">
                 {navigation.map((item) => (
                   <>
