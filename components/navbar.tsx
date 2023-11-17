@@ -12,6 +12,7 @@ const navigation = [
   { name: 'About', value : 'about' , href: '/about', current: false },
   { name: 'Pricing',value : 'pricing' , href: '/pricing', current: false },
   { name: 'Contact', value : 'contact' ,href: '/contact', current: false },
+  { name: 'Features',value : 'features' , href: '/features', current: false },
 ]
 
 const solutions = [
