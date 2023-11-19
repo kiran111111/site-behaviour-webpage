@@ -12,7 +12,7 @@ const navigation = [
   { name: 'About', value : 'about' , href: '/about', current: false },
   { name: 'Pricing',value : 'pricing' , href: '/pricing', current: false },
   { name: 'Contact', value : 'contact' ,href: '/contact', current: false },
-  { name: 'Features',value : 'features' , href: '/features', current: false },
+  // { name: 'Features',value : 'features' , href: '/features', current: false },
 ]
 
 const solutions = [
@@ -21,6 +21,20 @@ const solutions = [
   { name: 'UI/UX',value:'solution' , description: "Increase conversions by optimizing UI/UX with our tools.", href: '/solution', icon: '/assets/navbar/layout (1).svg' },
   { name: 'Marketing Teams',value:'solution' , description: 'Fine tune your marketing startegies for optimal results', href: '/solution', icon: '/assets/navbar/loud-speaker.svg'  },
 ]
+
+const features = [
+  { name: 'Heatmap',value:'heatmap' , description: 'Visualize user engagement with click , scroll and mouse-move heatmaps.', href: '/features/heatmap', icon: '/solution/allfeaturesicons/fire.svg' },
+  { name: 'Session Recordings',value:'recordings' , description: "Unlock the power of insight with session recordings.", href: '/features/recordings', icon: '/assets/play.svg'  },
+  { name: 'Flexible Funnels',value:'funnels' , description: "Optimize your conversions with custom funnels.", href: '/features/funnels', icon: '/solution/allfeaturesicons/sales-funnel.svg' },
+  { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/userjourney c', icon: '/solution/allfeaturesicons/journey.svg'  },
+  { name: 'Slack & Email report',value:'features' , description: 'Stay informed and in control with our concise email & Slack reports.', href: '/features', icon: '/solution/allfeaturesicons/arroba.svg' },
+  { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features', icon: '/solution/allfeaturesicons/click.svg'  },
+  { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features', icon: '/solution/allfeaturesicons/stats.svg' },
+  { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features', icon: '/solution/allfeaturesicons/map.svg'  },
+  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features', icon: '/solution/allfeaturesicons/time.svg' },
+ 
+]
+
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: '/solution/allfeaturesicons/click.svg'  },
   { name: 'Contact sales', href: '#', icon: '/solution/allfeaturesicons/click.svg'  },
@@ -109,6 +123,56 @@ export default function Navbar() {
                       <Popover className="relative">
                         <Popover.Button 
                              className={classNames(
+                                router.pathname.match(/['features']/g)  ? 'text-white bg-gray-700' : 'text-white' , 
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                )}
+                             >
+                          {/* <span className={classNames(
+                            router.pathname === '/solution' ? 'text-gray-300 bg-gray-700' : 'text-gray-300')} >Solutions </span> */}
+                            Features
+                          <FaAngleDown />
+                          {/* <ChevronDownIcon className="h-5 w-5" aria-hidden="true" /> */}
+                        </Popover.Button>
+
+                        <Transition
+                          as={Fragment}
+                          enter="transition ease-out duration-200"
+                          enterFrom="opacity-0 translate-y-1"
+                          enterTo="opacity-100 translate-y-0"
+                          leave="transition ease-in duration-150"
+                          leaveFrom="opacity-100 translate-y-0"
+                          leaveTo="opacity-0 translate-y-1"
+                        >
+                          <Popover.Panel className="absolute  z-10 mt-5 flex w-screen max-w-6xl -translate-x-1/2 pr-8">
+                            <div className="w-screen flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+                              <div className="lg:p-4 p-2 grid grid-cols-3">
+                                {features.map((item) => (
+                                  <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
+                                    <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
+                                      <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-100 group-hover:bg-white">
+                                        <img src={item.icon} className="h-7 w-7 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                                      </div>
+                                      <div>
+                                        <p className="font-customsemibold text-gray-900">
+                                          {item.name}
+                                          <span className="absolute inset-0" />
+                                        </p>
+                                        <p className="mt-1 font-customregular text-gray-600">{item.description}</p>
+                                      </div>
+                                    </div>
+                                  </Link>
+                                ))}
+                              </div>
+                              
+                            </div>
+                          </Popover.Panel>
+                        </Transition>
+                      </Popover>
+
+
+                      <Popover className="relative">
+                        <Popover.Button 
+                             className={classNames(
                                 router.pathname === '/solution' ? 'text-white bg-gray-700' : 'text-white' , 
                                 "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
@@ -172,7 +236,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Disclosure.Panel className="md:hidden">
+            <Disclosure.Panel className="lg:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2 border-b-2 border-gray-600">
                 {navigation.map((item) => (
                   <>
@@ -192,6 +256,54 @@ export default function Navbar() {
                    
                    </>
                 ))}
+
+                    <Popover className="relative">
+                      <Popover.Button 
+                            className={classNames(
+                                 router.pathname === '/features' ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' , "block w-full text-left rounded-md px-3 py-2 text-base font-medium"
+                              )}
+                            >
+                        {/* <span className={classNames(
+                          router.pathname === '/solution' ? 'text-gray-300 bg-gray-700' : 'text-gray-300')} >Solutions </span> */}
+                          Features
+                        <FaAngleDown className="inline" />
+                        {/* <ChevronDownIcon className="h-5 w-5" aria-hidden="true" /> */}
+                      </Popover.Button>
+
+                      <Transition
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                      >
+                        <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
+                          <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+                            <div className="p-4">
+                              {features.map((item) => (
+                                <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
+                                  <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
+                                    <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-100 group-hover:bg-white">
+                                      <img src={item.icon} className="h-7 w-7 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                                    </div>
+                                    <div>
+                                      <p className="font-customsemibold text-gray-900">
+                                        {item.name}
+                                        <span className="absolute inset-0" />
+                                      </p>
+                                      <p className="mt-1 font-customregular text-gray-600">{item.description}</p>
+                                    </div>
+                                  </div>
+                                </Link>
+                              ))}
+                            </div>
+                            
+                          </div>
+                        </Popover.Panel>
+                      </Transition>
+                   </Popover>
 
                    <Popover className="relative">
                       <Popover.Button 

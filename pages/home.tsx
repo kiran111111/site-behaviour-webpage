@@ -14,8 +14,9 @@ export default function Home() {
     
               <Navbar />
               <HeroSection />
-              <MainFeatures />
               <TopFeaturesSection />
+              <MainFeatures />
+              
               <AllFeaturesSection />
               <GetStartedSection />
               <CTASection />
