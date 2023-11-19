@@ -7,7 +7,7 @@ import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
 
-export default function Heatmap() {
+export default function UserJourney() {
     return (
          <div>    
     
@@ -22,11 +22,12 @@ export default function Heatmap() {
                                    User Journey
                               </h1>
                               <p className="text-md text-zinc-300 md:text-lg pb-8" >
-                                 Examine recorded visitor interactions on your website to gain a  detailed understanding of their online journey, 
-                                  Analyzing these details and  make informed optimizations, 
-                                  improving overall user experience and engagement.
+                                   Observe users' navigation paths on your website through graphic visuals,
+                                    providing a clear depiction of their interactions and journey. Gain valuable insights 
+                                    into user behavior by visually tracking the routes they follow during their 
+                                    online experience. 
                               </p>
-                              <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
+                              <button className="bg-green-400 mb-4 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
                          </div>
                          <div data-aos="fade-up" data-aos-duration="700">
 
@@ -50,19 +51,19 @@ export default function Heatmap() {
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                User Behavior Insights
+                                Holistic Experience
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center  text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                 Issue Identification
+                                 Stages and Touchpoints
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Conversion Optimization
+                                Insights and Optimization
                             </li> 
                         </ul>
             
@@ -70,7 +71,7 @@ export default function Heatmap() {
                 </div>
               </div>
  
-              <div className="px-4 py-24  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28 lg:pb-36 ">
+              <div className="px-4 py-24  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-8 lg:py-28 lg:pb-36 ">
                 <div data-aos="fade-up" data-aos-duration="700" className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <div>
                     <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-200 uppercase rounded-full bg-teal-accent-400">
@@ -92,11 +93,11 @@ export default function Heatmap() {
                                <FaPlay size={28} />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
-                                User Experience Analysis
+                              Visual Overview
                             </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                                Session recordings offer a detailed view of how users interact with your website, 
-                                allowing you to analyze their experience in real-time. 
+                              User journey mapping in analytics tools provides a visual overview of the entire user experience,
+                               helping businesses understand the flow of interactions from entry to conversion.
                             </p>
                         </div>     
                     </div>
@@ -105,12 +106,12 @@ export default function Heatmap() {
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
                                <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Error Identification and Troubleshooting</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                              Identifying Key Touchpoints
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                               Session recordings are valuable for identifying errors or glitches users
-                                may encounter during their session. By pinpointing the specific steps users take
-                                 before encountering issues, you can efficiently troubleshoot and address 
-                                 technical problems, enhancing the overall reliability of your website
+                               Analytics tools enable the identification of crucial touchpoints where users engage with the platform, 
+                               allowing businesses to focus on optimizing these areas for better user satisfaction.
                             </p>
                         </div>         
                     </div>
@@ -119,11 +120,12 @@ export default function Heatmap() {
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
                                <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">User Journey Mapping</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Behavioral Insights
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                               Studying session recordings enables the creation of comprehensive user journey maps.
-                                Understanding the paths users take through your site provides insights
-                                 into their decision-making process and helps you optimize the flow
+                               By tracking user actions at each stage, analytics tools offer behavioral insights, allowing businesses
+                                to understand how users navigate and interact with the website or application.
                             </p>
                         </div>         
                     </div>
@@ -132,9 +134,13 @@ export default function Heatmap() {
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
                                <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Content and Feature Optimization</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Optimization Opportunities
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                            Session recordings assist in evaluating the effectiveness of specific content and features on your website.
+                               User journey mapping facilitates the identification of areas for improvement, 
+                               enabling businesses to optimize specific touchpoints and create a more 
+                               seamless user experience for increased engagement and conversions
                             </p>
                         </div>         
                     </div>

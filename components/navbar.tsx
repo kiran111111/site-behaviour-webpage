@@ -9,9 +9,9 @@ import { useRouter } from 'next/router';
 
 const navigation = [
   { name: 'Home', value : 'home' , href: '/home', current: false },
-  { name: 'About', value : 'about' , href: '/about', current: false },
   { name: 'Pricing',value : 'pricing' , href: '/pricing', current: false },
   { name: 'Contact', value : 'contact' ,href: '/contact', current: false },
+  { name: 'About', value : 'about' , href: '/about', current: false },
   // { name: 'Features',value : 'features' , href: '/features', current: false },
 ]
 
@@ -26,12 +26,12 @@ const features = [
   { name: 'Heatmap',value:'heatmap' , description: 'Visualize user engagement with click , scroll and mouse-move heatmaps.', href: '/features/heatmap', icon: '/solution/allfeaturesicons/fire.svg' },
   { name: 'Session Recordings',value:'recordings' , description: "Unlock the power of insight with session recordings.", href: '/features/recordings', icon: '/assets/play.svg'  },
   { name: 'Flexible Funnels',value:'funnels' , description: "Optimize your conversions with custom funnels.", href: '/features/funnels', icon: '/solution/allfeaturesicons/sales-funnel.svg' },
-  { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/userjourney c', icon: '/solution/allfeaturesicons/journey.svg'  },
-  { name: 'Slack & Email report',value:'features' , description: 'Stay informed and in control with our concise email & Slack reports.', href: '/features', icon: '/solution/allfeaturesicons/arroba.svg' },
-  { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features', icon: '/solution/allfeaturesicons/click.svg'  },
-  { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features', icon: '/solution/allfeaturesicons/stats.svg' },
-  { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features', icon: '/solution/allfeaturesicons/map.svg'  },
-  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features', icon: '/solution/allfeaturesicons/time.svg' },
+  { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/userjourney', icon: '/solution/allfeaturesicons/journey.svg'  },
+  { name: 'Slack & Email report',value:'features' , description: 'Stay informed and in control with our concise email & Slack reports.', href: '/features/report', icon: '/solution/allfeaturesicons/arroba.svg' },
+  { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features/customevents', icon: '/solution/allfeaturesicons/click.svg'  },
+  { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features/customcharts', icon: '/solution/allfeaturesicons/stats.svg' },
+  { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features/geographicaldetails', icon: '/solution/allfeaturesicons/map.svg'  },
+  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/realtimestats', icon: '/solution/allfeaturesicons/time.svg' },
  
 ]
 
@@ -75,7 +75,11 @@ export default function Navbar() {
 
   return (
     <div className='mx-auto items-center'>
-      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[70%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
+
+    {console.log(router.pathname.match(/['features']/g))}
+
+
+      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[80%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-0 sm:px-2 lg:px-2 ">
@@ -104,7 +108,7 @@ export default function Navbar() {
                   <div className="hidden sm:ml-6 lg:block   ">
                     <div className="flex  space-x-3 ">
             
-                      {navigation.map((item) => (
+                      {/* {navigation.map((item) => (
                         <Link
                           key={item.name}
                           href={item.href}
@@ -117,13 +121,25 @@ export default function Navbar() {
                         >
                           {item.name}
                         </Link>
-                      ))}
+                      ))} */}
 
+                      <Link
+                          key={'home'}
+                          href={'/home'}
+                          onClick={() => handleItemClick('home')}
+                          className={classNames(
+                            router.pathname === '/home' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                          )}
+                          aria-current={'home' ? 'page' : undefined}
+                        >
+                          Home
+                      </Link>
 
                       <Popover className="relative">
                         <Popover.Button 
                              className={classNames(
-                                router.pathname.match(/['features']/g)  ? 'text-white bg-gray-700' : 'text-white' , 
+                                router.pathname.match(/features/i)  ? 'text-white bg-gray-700' : 'text-white' , 
                                 "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
@@ -143,7 +159,7 @@ export default function Navbar() {
                           leaveFrom="opacity-100 translate-y-0"
                           leaveTo="opacity-0 translate-y-1"
                         >
-                          <Popover.Panel className="absolute  z-10 mt-5 flex w-screen max-w-6xl -translate-x-1/2 pr-8">
+                          <Popover.Panel className="absolute  z-10 mt-5 flex w-screen max-w-6xl -translate-x-1/4 pr-8">
                             <div className="w-screen flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                               <div className="lg:p-4 p-2 grid grid-cols-3">
                                 {features.map((item) => (
@@ -168,7 +184,6 @@ export default function Navbar() {
                           </Popover.Panel>
                         </Transition>
                       </Popover>
-
 
                       <Popover className="relative">
                         <Popover.Button 
@@ -218,6 +233,45 @@ export default function Navbar() {
                           </Popover.Panel>
                         </Transition>
                       </Popover>
+
+                      <Link
+                          key={'pricing'}
+                          href={'/pricing'}
+                          onClick={() => handleItemClick('pricing')}
+                          className={classNames(
+                            router.pathname === '/pricing' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                          )}
+                          aria-current={'pricing' ? 'page' : undefined}
+                        >
+                          Pricing
+                      </Link>
+
+                      <Link
+                          key={'documentation'}
+                          href={'/documentation'}
+                          onClick={() => handleItemClick('cdocumentation')}
+                          className={classNames(
+                            router.pathname === '/documentation' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                          )}
+                          aria-current={'documentation' ? 'page' : undefined}
+                        >
+                          Documentation
+                      </Link>
+
+                      <Link
+                          key={'contact'}
+                          href={'/contact'}
+                          onClick={() => handleItemClick('contact')}
+                          className={classNames(
+                            router.pathname === '/contact' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                          )}
+                          aria-current={'contact' ? 'page' : undefined}
+                        >
+                          Contact
+                      </Link>
 
                     </div>
                   </div>

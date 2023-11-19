@@ -5,27 +5,26 @@ import HeroSection from "../../components/features/hero-section"
 import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
-import { RiFireLine } from "react-icons/ri";
+import { FaPlay } from "react-icons/fa";
 
-export default function Heatmap() {
+export default function GeographicalsDetails() {
     return (
          <div>    
     
               <Navbar />
 
-
               <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
-
                     <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                          <div data-aos="fade-up" data-aos-duration="700">
                               <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
-                                   Heatmaps
+                                   Geographical Details 
                               </h1>
                               <p className="text-md text-zinc-300 md:text-lg pb-8" >
-                                 Capture and analyze recorded interactions of visitors navigating through your website to extract 
-                                 valuable insights and enhance your understanding of their online journey and user experience.
+                                   Gain valuable insights into user demographics and regional engagement, allowing you to 
+                                   fine-tune your content, marketing strategies, and user experience based 
+                                   on specific geographic preferences
                               </p>
-                              <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
+                              <button className="bg-green-400 mb-4 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
                          </div>
                          <div data-aos="fade-up" data-aos-duration="700">
 
@@ -39,7 +38,6 @@ export default function Heatmap() {
                               </div>
                          </div>
                     </div>
-
               </div>
 
 
@@ -49,19 +47,19 @@ export default function Heatmap() {
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Click Heatmaps
+                                   Targeted Marketing Campaigns
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center  text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Scroll Heatmaps
+                                   Localized Content and User Experience  
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Mouse movement heatmaps
+                                 Strategic Expansion Planning
                             </li> 
                         </ul>
             
@@ -88,60 +86,67 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={28} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Visualize User Engagement</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Targeted Advertising
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                            Heatmaps visually display areas of a webpage that attract the most user engagement.
-                            This helps website owners identify
-                               popular and relevant content.
+                               Geographical details empower businesses to run targeted advertising campaigns, ensuring
+                                that promotions and content are tailored to the preferences and 
+                                interests of specific regions. 
                             </p>
                         </div>     
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">User Behavior Analysis</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Optimized User Experience
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                               Heatmaps provide insights into user behavior by showing the frequency and intensity of clicks or interactions on specific elements of a webpage. 
-                               This analysis can help optimize the placement of important elements, such as buttons or links, 
-                               to align with user preferences and improve overall usability.
+                               By incorporating geographical details into the analytics tool, businesses
+                                can optimize the user experience based on regional preferences. 
+                                This includes tailoring website content  and
+                                 promotions to align with the cultural and demographic characteristics
+                                  of different geographic locations .
                             </p>
                         </div>         
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Scrolling Patterns</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Local SEO and Visibility
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                            Scroll maps, a type of heatmap, reveal how far users scroll down a webpage
-                            Cooler colors at the bottom may suggest that users are not reaching the end of the page, prompting a need for adjustments in content placement or design
+                                  Geographical insights are crucial for local Search Engine Optimization (SEO). Understanding user
+                                   behavior in specific regions allows businesses to refine their SEO strategies, 
+                                   improving local search rankings and visibility. 
                             </p>
                         </div>         
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Identifying Conversion Points and Issues</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                                Supply Chain and Inventory Management
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                              Heatmaps can highlight areas where users commonly drop off or encounter issues, aiding in the identification of potential barriers to conversion. By addressing these pain points, website owners can enhance the user experience and increase the likelihood of visitors taking desired actions
+                                For businesses with physical products, geographical details play a vital role
+                                 in supply chain and inventory management. By analyzing user demand and purchasing
+                                  patterns in different regions, companies can optimize inventory levels and streamline distribution,
                             </p>
                         </div>         
                     </div>
                 </div>
               </div>
-
-
-
-              {/* <AllFeatures /> */}
-
-
 
               <CTA2Section />
               <Footer />

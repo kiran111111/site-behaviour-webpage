@@ -5,27 +5,28 @@ import HeroSection from "../../components/features/hero-section"
 import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
-import { RiFireLine } from "react-icons/ri";
+import { FaPlay } from "react-icons/fa";
 
-export default function Heatmap() {
+export default function CustomCharts() {
     return (
          <div>    
     
               <Navbar />
-
+              
 
               <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
 
                     <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                          <div data-aos="fade-up" data-aos-duration="700">
                               <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
-                                   Heatmaps
+                                   Custom Charts
                               </h1>
                               <p className="text-md text-zinc-300 md:text-lg pb-8" >
-                                 Capture and analyze recorded interactions of visitors navigating through your website to extract 
-                                 valuable insights and enhance your understanding of their online journey and user experience.
+                                   Elevate your data-driven decision-making with our analytics tool's custom charts feature.
+                                    Tailor visualizations to your precise needs, enabling targeted representation 
+                                    of key metrics and fostering a nuanced understanding of your data.
                               </p>
-                              <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
+                              <button className="bg-green-400 mb-4 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
                          </div>
                          <div data-aos="fade-up" data-aos-duration="700">
 
@@ -49,19 +50,19 @@ export default function Heatmap() {
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Click Heatmaps
+                                  Tailored Visualization 
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center  text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Scroll Heatmaps
+                                  In-Depth Analysis   
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                Mouse movement heatmaps
+                                  Personalized Reporting
                             </li> 
                         </ul>
             
@@ -88,60 +89,61 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={28} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Visualize User Engagement</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                              Targeted Data Representation
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                            Heatmaps visually display areas of a webpage that attract the most user engagement.
-                            This helps website owners identify
-                               popular and relevant content.
+                                Custom charts allow users to represent specific data points that are most relevant to their objectives
+                                , providing a focused and targeted visualization of key metrics.
                             </p>
                         </div>     
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">User Behavior Analysis</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Flexible Visualization Options
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                               Heatmaps provide insights into user behavior by showing the frequency and intensity of clicks or interactions on specific elements of a webpage. 
-                               This analysis can help optimize the placement of important elements, such as buttons or links, 
-                               to align with user preferences and improve overall usability.
+                               Users can choose from a variety of visualization options, such as line charts, bar graphs,
+                                scatter plots, and more, to match the nature of their data and the insights they wish to convey.
                             </p>
                         </div>         
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Scrolling Patterns</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                              Granular Analysis
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                            Scroll maps, a type of heatmap, reveal how far users scroll down a webpage
-                            Cooler colors at the bottom may suggest that users are not reaching the end of the page, prompting a need for adjustments in content placement or design
+                               Custom charts facilitate granular analysis by allowing users to drill down into specific
+                                details, trends, or segments within their data.  
                             </p>
                         </div>         
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               <FaPlay size={30} />
                             </div>
-                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Identifying Conversion Points and Issues</h6>
+                            <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
+                               Enhanced Reporting Capabilities
+                            </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
-                              Heatmaps can highlight areas where users commonly drop off or encounter issues, aiding in the identification of potential barriers to conversion. By addressing these pain points, website owners can enhance the user experience and increase the likelihood of visitors taking desired actions
+                               Leveraging custom charts enhances reporting capabilities, enabling users to create visual reports that
+                                are tailored to their unique requirements.
                             </p>
                         </div>         
                     </div>
                 </div>
               </div>
-
-
-
-              {/* <AllFeatures /> */}
-
-
 
               <CTA2Section />
               <Footer />
