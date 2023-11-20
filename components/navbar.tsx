@@ -129,7 +129,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('home')}
                           className={classNames(
                             router.pathname === '/home' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base text-sm '
                           )}
                           aria-current={'home' ? 'page' : undefined}
                         >
@@ -140,7 +140,7 @@ export default function Navbar() {
                         <Popover.Button 
                              className={classNames(
                                 router.pathname.match(/features/i)  ? 'text-white bg-gray-700' : 'text-white' , 
-                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base  font-customregular px-4 py-0.5 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
                           {/* <span className={classNames(
@@ -161,7 +161,7 @@ export default function Navbar() {
                         >
                           <Popover.Panel className="absolute  z-10 mt-5 flex w-screen max-w-6xl -translate-x-1/4 pr-8">
                             <div className="w-screen flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                              <div className="lg:p-4 p-2 grid grid-cols-3">
+                              <div className="lg:p-4 p-2 grid grid-cols-3 ">
                                 {features.map((item) => (
                                   <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                     <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
@@ -189,7 +189,7 @@ export default function Navbar() {
                         <Popover.Button 
                              className={classNames(
                                 router.pathname === '/solution' ? 'text-white bg-gray-700' : 'text-white' , 
-                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-lg text-sm  font-customregular py-1 px-3 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base text-sm  font-customregular px-4 py-0.5 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
                           {/* <span className={classNames(
@@ -240,7 +240,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('pricing')}
                           className={classNames(
                             router.pathname === '/pricing' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base  text-sm '
                           )}
                           aria-current={'pricing' ? 'page' : undefined}
                         >
@@ -253,7 +253,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('cdocumentation')}
                           className={classNames(
                             router.pathname === '/documentation' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base  text-sm '
                           )}
                           aria-current={'documentation' ? 'page' : undefined}
                         >
@@ -266,7 +266,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('contact')}
                           className={classNames(
                             router.pathname === '/contact' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 py-1.5 lg:text-lg text-sm '
+                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base  text-sm '
                           )}
                           aria-current={'contact' ? 'page' : undefined}
                         >
@@ -334,8 +334,8 @@ export default function Navbar() {
                         leaveTo="opacity-0 translate-y-1"
                       >
                         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-                          <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4">
+                          <div className="w-screen  flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+                            <div className="p-4 grid sm:grid-cols-2">
                               {features.map((item) => (
                                 <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                   <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
@@ -382,8 +382,8 @@ export default function Navbar() {
                         leaveTo="opacity-0 translate-y-1"
                       >
                         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-                          <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4">
+                          <div className="w-screen  flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+                            <div className="p-4 grid sm:grid-cols-2">
                               {solutions.map((item) => (
                                 <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                   <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
