@@ -85,11 +85,11 @@ export default function CustomCharts() {
                     Unlock a world of supplementary features designed to supercharge your analytics experience.
                     </p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-2">
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={28} />
+                               <img className="w-9" src="/assets/features/customcharts/target.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                               Targeted Data Representation
@@ -103,7 +103,7 @@ export default function CustomCharts() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                               <img className="w-9" src="/assets/features/customcharts/arrows.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Flexible Visualization Options
@@ -117,7 +117,7 @@ export default function CustomCharts() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                                <img className="w-9" src="/assets/features/customcharts/search.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                               Granular Analysis
@@ -131,7 +131,7 @@ export default function CustomCharts() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                                <img className="w-9" src="/assets/features/customcharts/magic-wand.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Enhanced Reporting Capabilities

@@ -88,10 +88,11 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               {/* <RiFireLine size={30} /> */}
+                               <img className="w-9" src="/assets/features/heatmap/click.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Visualize User Engagement</h6>
-                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
+                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
                             Heatmaps visually display areas of a webpage that attract the most user engagement.
                             This helps website owners identify
                                popular and relevant content.
@@ -101,10 +102,11 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               {/* <RiFireLine size={30} /> */}
+                               <img className="w-9" src="/assets/features/heatmap/data-analysis.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">User Behavior Analysis</h6>
-                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
+                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
                                Heatmaps provide insights into user behavior by showing the frequency and intensity of clicks or interactions on specific elements of a webpage. 
                                This analysis can help optimize the placement of important elements, such as buttons or links, 
                                to align with user preferences and improve overall usability.
@@ -114,10 +116,11 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                               {/* <RiFireLine size={30} /> */}
+                               <img className="w-9" src="/assets/features/heatmap/hand.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Scrolling Patterns</h6>
-                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
+                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
                             Scroll maps, a type of heatmap, reveal how far users scroll down a webpage
                             Cooler colors at the bottom may suggest that users are not reaching the end of the page, prompting a need for adjustments in content placement or design
                             </p>
@@ -126,10 +129,10 @@ export default function Heatmap() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <RiFireLine size={30} />
+                              <img className="w-9" src="/assets/features/heatmap/error.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Identifying Conversion Points and Issues</h6>
-                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">
+                            <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
                               Heatmaps can highlight areas where users commonly drop off or encounter issues, aiding in the identification of potential barriers to conversion. By addressing these pain points, website owners can enhance the user experience and increase the likelihood of visitors taking desired actions
                             </p>
                         </div>         

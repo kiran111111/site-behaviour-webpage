@@ -82,11 +82,11 @@ export default function RealTimeStats() {
                     Unlock a world of supplementary features designed to supercharge your analytics experience.
                     </p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-2">
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={28} />
+                               <img className="w-9" src="/assets/features/realtimestats/monitor.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Instantaneous Monitoring
@@ -99,8 +99,8 @@ export default function RealTimeStats() {
                     </div>
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
-                            <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
+                                <img className="w-9" src="/assets/features/realtimestats/decision.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Timely Decision-Making
@@ -116,7 +116,7 @@ export default function RealTimeStats() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                                 <img className="w-9" src="/assets/features/realtimestats/file.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Dynamic Content Adaptation
@@ -132,7 +132,7 @@ export default function RealTimeStats() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                                <img className="w-9" src="/assets/features/realtimestats/iterative.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Proactive Issue Resolution

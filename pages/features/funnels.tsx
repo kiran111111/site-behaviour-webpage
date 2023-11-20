@@ -87,7 +87,7 @@ export default function Funnels() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                            <AiOutlineFunnelPlot size={30} />
+                               <img className="w-9" src="/assets/features/recording/data-analysis.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                             Customization  
@@ -101,7 +101,7 @@ export default function Funnels() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                            <AiOutlineFunnelPlot size={30} />
+                               <img className="w-9" src="/assets/features/funnel/refresh.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                             Adaptability to Changes:
@@ -115,7 +115,7 @@ export default function Funnels() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                            <AiOutlineFunnelPlot size={30} />
+                              <img className="w-9" src="/assets/features/funnel/analytics.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                 Multi-Path Analysis
@@ -130,7 +130,7 @@ export default function Funnels() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                            <AiOutlineFunnelPlot size={30} />
+                               <img className="w-9" src="/assets/features/funnel/optimization.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Content and Feature Optimization</h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md font-custommedium text-gray-300">

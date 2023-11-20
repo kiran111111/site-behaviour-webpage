@@ -86,11 +86,11 @@ export default function UserJourney() {
                     Unlock a world of supplementary features designed to supercharge your analytics experience.
                     </p>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <div data-aos="fade-up" data-aos-duration="700" className="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-2">
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={28} />
+                               <img className="w-9" src="/assets/features/userjourney/list-search.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                               Visual Overview
@@ -104,7 +104,7 @@ export default function UserJourney() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                               <img className="w-9" src="/assets/features/userjourney/list.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                               Identifying Key Touchpoints
@@ -118,7 +118,7 @@ export default function UserJourney() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                          <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                               <img className="w-9" src="/assets/features/userjourney/insight.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Behavioral Insights
@@ -132,7 +132,7 @@ export default function UserJourney() {
                     <div className="flex flex-col justify-between text-center p-5 border-2 border-zinc-800 bg-[#141414] rounded-lg shadow-sm">
                         <div>
                             <div className="flex mx-auto items-center justify-center  w-16 h-16 mb-4 rounded-full bg-green-500 text-black">
-                               <FaPlay size={30} />
+                               <img className="w-9" src="/assets/features/userjourney/optimization.svg" />
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">
                                Optimization Opportunities
