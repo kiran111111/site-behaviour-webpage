@@ -1,8 +1,69 @@
-
+import {useEffect , useState} from 'react'
 import Tilt from 'react-parallax-tilt';
 
 
 export default function AllFeaturesSection(){
+
+
+    const [feature , setFeature] = useState('JourneyMap')
+    /// gpt created this array itself - wow 
+    const features = [
+        {
+            name : 'Journey Map',
+            img : '/assets/home/allfeatures/journey.svg',
+            desc : 'Visualize your customer journey and identify the most important touchpoints in your funnel.'
+        },
+        {
+            name : 'Custom Events',
+            img : '/assets/home/allfeatures/feature-2.png',
+            desc : 'Create custom events to track any action on your website or app.'
+        },
+        {
+            name : 'Mobile App',
+            img : '/assets/home/allfeatures/feature-3.png',
+            desc : 'Track your mobile app and get insights on your users’ behavior.'
+        },
+        {
+            name : 'Traffic Source',
+            img : '/assets/home/allfeatures/feature-4.png',
+            desc : 'Understand where your traffic is coming from and how your marketing campaigns are performing.'
+        },
+        {
+            name : 'Real time stats',
+            img : '/assets/home/allfeatures/feature-5.png',
+            desc : 'Get real-time stats on your website or app to make informed decisions.'
+        },
+        {
+            name : 'Flexible Filters',
+            img : '/assets/home/allfeatures/feature-6.png',
+            desc : 'Filter your data by any parameter to get the most relevant insights.'
+        },
+        {
+            name : 'Report',
+            img : '/assets/home/allfeatures/feature-7.png',
+            desc : 'Create custom reports and share them with your team.'
+        },
+        
+    ]
+
+    const featureDictionary = {
+        'JourneyMap' : {
+            name : 'JourneyMap',
+            title : 'Visitor Journey Map',
+            desc : 'Graphically see how people are navigating your website and the paths they took.',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+        'CustomEvents' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        }
+    }
 
     return(
         <div className="bg-black">
@@ -19,15 +80,15 @@ export default function AllFeaturesSection(){
                       <div className=" max-w-7xl lg:mx-auto grid grid-cols-1  mx-6 gap-5  lg:mb-10 sm:grid-cols-4 lg:grid-cols-7">
                      {/* <div className="text-center"> */}
                          {[
-                            {img : '/assets/home/allfeatures/journey.svg', name :'Journey Map' },
-                            {img : '/assets/home/allfeatures/click.svg' , name : 'Custom Events' },
+                            {img : '/assets/home/allfeatures/journey.svg', name :'JourneyMap' },
+                            {img : '/assets/home/allfeatures/click.svg' , name : 'CustomEvents' },
                             {img : '/assets/home/allfeatures/phone.svg' , name : 'Mobile App' },
                             {img : '/assets/home/allfeatures/maps.svg' , name : 'Traffic Source' },
                             {img : '/assets/home/allfeatures/chart.svg' ,  name : 'Real time stats' },
                             {img : '/assets/home/allfeatures/filter.svg' ,  name : 'Flexible Filters' },
                             {img : '/assets/home/allfeatures/integration.svg' ,  name: 'Report' },
-                        ].map(e => (
-                            <div style={{borderWidth : '2px '}} className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                        ].map((e,i) => (
+                            <div onClick={()=>setFeature(e.name)} style={{borderWidth : '2px '}} className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src={e.img} />
@@ -39,9 +100,9 @@ export default function AllFeaturesSection(){
                     {/* </div> */}
                     <div className="bg-[#141414] grid grid-cols-1 sm:grid-cols-2 mx-2 p-16 px-4 sm:px-8 pt-28 -mt-20 rounded-xl">
                          <div>
-                            <h3 className="text-3xl font-customsemibold text-white" > Slack & Email Reports </h3>
-                            <p className="text-zinc-300 mt-2" > 
-                                Stay informed and in control with our concise email & Slack reports.
+                            <h3 className="text-3xl font-customsemibold text-white" > {featureDictionary[feature].title} </h3>
+                            <p className="text-zinc-400 mt-2 text-lg" > 
+                               {featureDictionary[feature].desc}
                             </p>
                             <ul className="mt-8 text-zinc-400 ">
                                 <li className="flex flex-row items-start mb-3"> 
