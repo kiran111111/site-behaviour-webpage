@@ -76,8 +76,7 @@ export default function Navbar() {
   return (
     <div className='mx-auto items-center'>
 
-    {console.log(router.pathname.match(/['features']/g))}
-
+ 
 
       <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[80%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
         {({ open }) => (
