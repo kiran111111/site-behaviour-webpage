@@ -10,7 +10,7 @@ export default function PricingDetails() {
     setIsChecked(!isChecked);
   };
 
-  const [sliderValue, setSliderValue] = useState(3000);
+  const [sliderValue, setSliderValue] = useState(30);
 
   const handleSliderChange = (event :any) => {
     setSliderValue(event.target.value);
@@ -40,7 +40,7 @@ export default function PricingDetails() {
 
              <div className=' text-center'>
                <p className='font-customsemibold'>Based on an audience  up <br></br> to 
-                  <span className='font-custombold text-green-500' > {sliderValue} members</span>
+                  <span className='font-custombold text-green-500' > {sliderValue}k members</span>
                </p>
              </div>
          
@@ -51,7 +51,7 @@ export default function PricingDetails() {
                      <input type="range" 
                            value={sliderValue}
                            onChange={handleSliderChange} 
-                           min={0} step={1000} max="10000" 
+                           min={1} step={1} max="100" 
                           className="range range-success" 
                        />
                   
@@ -59,7 +59,7 @@ export default function PricingDetails() {
                        className="bg-green-400 font-customsemibold text-xs text-black text-center px-4 py-1 w-16  -top-10 rounded-3xl  absolute"
                        style={{ left: `${(((sliderValue)/10000)*100) - 8 }%` }}
                      >
-                      {sliderValue}
+                      {sliderValue}k
                      </div>
                  </div>
                  <span className='text-xs font-customsemibold mt-1 ml-3'>100k</span>
