@@ -150,7 +150,7 @@ export default function PricingDetails() {
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Unlimited users</span>
+                    <span>Upto 100k users</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
