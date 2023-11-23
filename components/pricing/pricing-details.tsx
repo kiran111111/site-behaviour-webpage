@@ -67,7 +67,7 @@ export default function PricingDetails() {
 
              <div className="tabs tabs-boxed w-fit mx-auto">
                <a className="tab tab-active font-customsemibold ">Monthly Billing</a> 
-               <a className="tab  font-customsemibold  ">Yearly Billing</a> 
+               <a  className="tab  font-customsemibold  ">Yearly Billing ( 20% off )</a> 
              </div>
 
            </div>
@@ -75,7 +75,11 @@ export default function PricingDetails() {
 
         <div data-aos="fade-up"  className="grid px-3 sm:px-6 xl:max-w-screen-xl  row-gap-5  sm:row-gap-5 lg:grid-cols-3 sm:mx-auto">
 
-          <div className="flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow">   
+          <div className={sliderValue > 3 ? 
+              "flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-gray-200  opacity-25 mb-6 rounded-lg shadow-sm  hover:shadow"
+                :
+              `flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow` 
+               }>   
             <div className="text-left text-black">
                 <div className="mr-1 text-3xl font-customsemibold">Startup Plan</div>
                 <div className="mt-3 space-y-3 pb-5 text-gray-700 text-md border-b-2 border-zinc-200">
@@ -86,13 +90,16 @@ export default function PricingDetails() {
             </div>
 
             <div className='mt-4 text-left'>
-              <a
-                href="/contact"
-                style={{borderWidth : '1px'}}
-                className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
-              >
-                 Get Started 
-              </a>
+               {sliderValue > 3 ?
+                 "" :
+                  <a
+                     href="/contact"
+                     style={{borderWidth : '1px'}}
+                     className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
+                  >
+                     Get Started 
+                  </a>
+               }
               <ul className="max-w-xs mt-6  font-customregular text-xs text-gray-800 sm:text-sm  sm:max-w-sm ">
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-white.svg" />
@@ -123,7 +130,9 @@ export default function PricingDetails() {
             <div className="text-left text-white">
                 <div className="mr-1 text-3xl font-customsemibold">Business</div>
                 <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
-                <p className='font-custombold text-4xl mt-6 mb-4'>$11.89</p>
+                <p className='font-custombold text-4xl mt-6 mb-4'>
+                   ${sliderValue > 6 ?  (11.89 + ((sliderValue-6)*8)) : 11.89 } 
+                </p>
                 <p className='text-gray-300 font-customsemimedium text-md'>Per month</p>
             </div>
 
