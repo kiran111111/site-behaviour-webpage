@@ -78,13 +78,13 @@ export default function CTASection() {
                     </div>
                     <div data-aos="fade-up" data-aos-duration="600" className="flex items-center sm:flex-row flex-col ">
                         <a
-                            href="/"
+                            href="/contact"
                             className="inline-flex items-center mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
                         >
                             Get started
                         </a>
                         <a
-                            href="/"
+                            href="/features/heatmap"
                             style={{borderWidth : '1px'}}
                             className="inline-flex items-center  mb-4 justify-center h-12 px-6 mr-6 font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md border-black hover:bg-black hover:text-white focus:shadow-outline focus:outline-none"
                         >

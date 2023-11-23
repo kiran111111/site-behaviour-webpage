@@ -98,11 +98,13 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
-                    <img
-                      className="h-8 w-auto"
-                      src="/assets/hero.png"
-                      alt="Your Company"
-                    />
+                    <a href="/">
+                      <img
+                        className="h-8 w-auto"
+                        src="/assets/hero.png"
+                        alt="Your Company"
+                      />
+                    </a>
                   </div>
 
                   <div className="hidden sm:ml-6 lg:block   ">
@@ -247,7 +249,7 @@ export default function Navbar() {
                           Pricing
                       </Link>
 
-                      <Link
+                      {/* <Link
                           key={'documentation'}
                           href={'/documentation'}
                           onClick={() => handleItemClick('cdocumentation')}
@@ -258,7 +260,7 @@ export default function Navbar() {
                           aria-current={'documentation' ? 'page' : undefined}
                         >
                           Documentation
-                      </Link>
+                      </Link> */}
 
                       <Link
                           key={'contact'}
@@ -282,9 +284,11 @@ export default function Navbar() {
 
                   {/* Profile dropdown */}
 
-                  <button className='bg-green-400 text-xs  sm:text-sm lg:text-lg text-black hover:bg-white hover:text-black font-custombold lg:font-custommedium py-2 md:px-3 px-2 rounded-3xl'>
-                      Get Started
-                  </button>
+                  <a href="/contact">
+                    <button className='bg-green-400 text-xs  sm:text-sm lg:text-lg text-black hover:bg-white hover:text-black font-custombold lg:font-custommedium py-2 md:px-3 px-2 rounded-3xl'>
+                        Get Started
+                    </button>
+                  </a>
 
                 </div>
               </div>

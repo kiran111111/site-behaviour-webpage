@@ -5,9 +5,13 @@ import Tilt from 'react-parallax-tilt';
 export default function AllFeaturesSection(){
 
 
-    const [feature , setFeature] = useState('JourneyMap')
+    type featureType = 'JourneyMap' | 'CustomEvents'| 'MobileApp' | 'TrafficSource' | 'RealTimeStats' | 'FlexibleFilters' | 'Report' ;
+
+    // const key : featureType ;
+
+    const [feature , setFeature] = useState<featureType>('JourneyMap')
     /// gpt created this array itself - wow 
-    const features = [
+    const features : any = [
         {
             name : 'Journey Map',
             img : '/assets/home/allfeatures/journey.svg',
@@ -62,8 +66,53 @@ export default function AllFeaturesSection(){
             more1 : 'Add Start Point and End Point',
             more2 : 'Supports Custom Events',
             more3 : 'Supports Flexible Filters',
-        }
+        },
+        'MobileApp' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+        'TrafficSource' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+        'RealTimeStats' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+        'FlexibleFilters' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+        'Report' : {
+            name : 'CustomEvents',
+            title : 'Custom Events',
+            desc : 'Add your own custom events like "Add to cart", "Checkout" etc depending upon your business needs',
+            more1 : 'Add Start Point and End Point',
+            more2 : 'Supports Custom Events',
+            more3 : 'Supports Flexible Filters',
+        },
+
+
     }
+
+
+    
 
     return(
         <div className="bg-black">
@@ -82,13 +131,13 @@ export default function AllFeaturesSection(){
                          {[
                             {img : '/assets/home/allfeatures/journey.svg', name :'JourneyMap' },
                             {img : '/assets/home/allfeatures/click.svg' , name : 'CustomEvents' },
-                            {img : '/assets/home/allfeatures/phone.svg' , name : 'Mobile App' },
-                            {img : '/assets/home/allfeatures/maps.svg' , name : 'Traffic Source' },
-                            {img : '/assets/home/allfeatures/chart.svg' ,  name : 'Real time stats' },
-                            {img : '/assets/home/allfeatures/filter.svg' ,  name : 'Flexible Filters' },
+                            {img : '/assets/home/allfeatures/phone.svg' , name : 'MobileApp' },
+                            {img : '/assets/home/allfeatures/maps.svg' , name : 'TrafficSource' },
+                            {img : '/assets/home/allfeatures/chart.svg' ,  name : 'RealTimeStats' },
+                            {img : '/assets/home/allfeatures/filter.svg' ,  name : 'FlexibleFilters' },
                             {img : '/assets/home/allfeatures/integration.svg' ,  name: 'Report' },
                         ].map((e,i) => (
-                            <div onClick={()=>setFeature(e.name)} style={{borderWidth : '2px '}} className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                            <div key={i} onClick={()=>setFeature(e.name)} style={{borderWidth : '2px '}} className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src={e.img} />

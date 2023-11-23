@@ -48,12 +48,12 @@ export default function Footer() {
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">
               <p className="mr-1 text-white">Phone:</p>
               <a
-                href="tel:850-123-5021"
+                href="tel:4372391838"
                 aria-label="Our phone"
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                850-123-5021
+                437-239-1838
               </a>
             </div>
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">
@@ -64,7 +64,7 @@ export default function Footer() {
                 title="Our email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                info@lorem.mail
+                jassa.developer@gmail.com
               </a>
             </div>
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">
@@ -77,7 +77,7 @@ export default function Footer() {
                 title="Our address"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                312 Lovely Street, NY
+                Toronto , Ontario
               </a>
             </div>
           </div>

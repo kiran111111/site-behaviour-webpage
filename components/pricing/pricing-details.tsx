@@ -10,7 +10,7 @@ export default function PricingDetails() {
     setIsChecked(!isChecked);
   };
 
-  const [sliderValue, setSliderValue] = useState(50);
+  const [sliderValue, setSliderValue] = useState(3000);
 
   const handleSliderChange = (event :any) => {
     setSliderValue(event.target.value);
@@ -66,8 +66,8 @@ export default function PricingDetails() {
              </div>
 
              <div className="tabs tabs-boxed w-fit mx-auto">
-               <a className="tab font-customsemibold ">Monthly Billing</a> 
-               <a className="tab tab-active font-customsemibold ">Yearly Billing</a> 
+               <a className="tab tab-active font-customsemibold ">Monthly Billing</a> 
+               <a className="tab  font-customsemibold  ">Yearly Billing</a> 
              </div>
 
            </div>
@@ -77,15 +77,17 @@ export default function PricingDetails() {
 
           <div className="flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow">   
             <div className="text-left text-black">
-                <div className="mr-1 text-3xl font-customsemibold">Business</div>
-                <div className="mt-3 space-y-3 pb-5 text-gray-700 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
-                <p className='font-custombold text-4xl mt-6 mb-4'>$11.89</p>
+                <div className="mr-1 text-3xl font-customsemibold">Startup Plan</div>
+                <div className="mt-3 space-y-3 pb-5 text-gray-700 text-md border-b-2 border-zinc-200">
+                Best for side projects and startups with limited visitors
+                  </div>
+                <p className='font-custombold text-4xl mt-6 mb-4'>$2.66</p>
                 <p className='text-gray-700 font-customsemimedium text-sm'>Per month</p>
             </div>
 
             <div className='mt-4 text-left'>
               <a
-                href="/"
+                href="/contact"
                 style={{borderWidth : '1px'}}
                 className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
               >
@@ -127,7 +129,7 @@ export default function PricingDetails() {
 
             <div className='mt-4'>
               <a
-                href="/"
+                href="/contact"
                 style={{borderWidth : '1px'}}
                 className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
               >
@@ -136,19 +138,19 @@ export default function PricingDetails() {
               <ul className="max-w-xs mt-6  font-customregular text-xs text-gray-300 sm:text-sm  sm:max-w-sm ">
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>2 Websites / Projects</span>
+                    <span>Unlimited websites</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>3000 visitors per month</span>
+                    <span>Own analytics platformh</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>24/7 Support</span>
+                    <span>Fully support with decisions</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>2 Funnels per Project</span>
+                    <span>Unlimited users</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
@@ -169,7 +171,7 @@ export default function PricingDetails() {
 
             <div className='mt-4'>
               <a
-                href="/"
+                href="/contact"
                 style={{borderWidth : '1px'}}
                 className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
               >
@@ -178,19 +180,19 @@ export default function PricingDetails() {
               <ul className="max-w-xs mt-6  font-customregular text-xs text-gray-300 sm:text-sm  sm:max-w-sm ">
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>2 Websites / Projects</span>
+                    <span>Unlimited Websites</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>3000 visitors per month</span>
+                    <span>Unlimited Users</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>24/7 Support</span>
+                    <span>24/7 Support - book meetings</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>2 Funnels per Project</span>
+                    <span>Unlimited Funnels</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
