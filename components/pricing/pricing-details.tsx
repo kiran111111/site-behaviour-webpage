@@ -62,7 +62,7 @@ export default function PricingDetails() {
                       {sliderValue}k
                      </div>
                  </div>
-                 <span className='text-xs font-customsemibold mt-1 ml-3'>100k</span>
+                 <span className='text-xs font-customsemibold mt-1 ml-3'>100k+</span>
              </div>
 
              <div className="tabs tabs-boxed w-fit mx-auto">
