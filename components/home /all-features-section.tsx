@@ -128,23 +128,84 @@ export default function AllFeaturesSection(){
                 <div data-aos="fade-up" data-aos-duration="600"  className="my-12   ">
                       <div className=" max-w-7xl lg:mx-auto grid grid-cols-1  mx-6 gap-5  lg:mb-10 sm:grid-cols-4 lg:grid-cols-7">
                      {/* <div className="text-center"> */}
-                         {[
-                            {img : '/assets/home/allfeatures/journey.svg', name :'JourneyMap' },
-                            {img : '/assets/home/allfeatures/click.svg' , name : 'CustomEvents' },
-                            {img : '/assets/home/allfeatures/phone.svg' , name : 'MobileApp' },
-                            {img : '/assets/home/allfeatures/maps.svg' , name : 'TrafficSource' },
-                            {img : '/assets/home/allfeatures/chart.svg' ,  name : 'RealTimeStats' },
-                            {img : '/assets/home/allfeatures/filter.svg' ,  name : 'FlexibleFilters' },
-                            {img : '/assets/home/allfeatures/integration.svg' ,  name: 'Report' },
-                        ].map((e,i) => (
-                            <div key={i} onClick={()=>setFeature(e.name)} style={{borderWidth : '2px '}} className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                    
+
+
+                        <div  onClick={()=>setFeature('JourneyMap')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
-                                   <img className="h-16 pb-4 text-center inline-block" src={e.img} />
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/journey.svg' />
                                 </Tilt>
-                                <p className="text-lg">{e.name}</p>
-                            </div>
-                         ))}
+                                <p className="text-lg">JourneyMap</p>
+                         </div>
+
+                         <div  onClick={()=>setFeature('CustomEvents')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/click.svg' />
+                                </Tilt>
+                                <p className="text-lg">CustomEvents</p>
+                         </div>
+
+
+                         <div  onClick={()=>setFeature('MobileApp')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/phone.svg' />
+                                </Tilt>
+                                <p className="text-lg">MobileApp</p>
+                         </div>
+
+
+                         <div  onClick={()=>setFeature('TrafficSource')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/maps.svg' />
+                                </Tilt>
+                                <p className="text-lg">TrafficSource</p>
+                         </div>
+
+
+                         <div  onClick={()=>setFeature('RealTimeStats')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/chart.svg' />
+                                </Tilt>
+                                <p className="text-lg">RealTimeStats</p>
+                         </div>
+
+
+                         <div  onClick={()=>setFeature('FlexibleFilters')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/filter.svg' />
+                                </Tilt>
+                                <p className="text-lg">FlexibleFilters</p>
+                         </div>
+
+
+                         <div  onClick={()=>setFeature('Report')} 
+                              style={{borderWidth : '2px '}} 
+                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                                <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
+                                 tiltMaxAngleY={40}>
+                                   <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/integration.svg' />
+                                </Tilt>
+                                <p className="text-lg">Report</p>
+                         </div>
+
                       </div>
                     {/* </div> */}
                     <div className="bg-[#141414] grid grid-cols-1 sm:grid-cols-2 mx-2 p-16 px-4 sm:px-8 pt-28 -mt-20 rounded-xl">
