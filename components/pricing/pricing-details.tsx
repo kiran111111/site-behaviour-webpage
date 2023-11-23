@@ -10,12 +10,13 @@ export default function PricingDetails() {
     setIsChecked(!isChecked);
   };
 
-  const [sliderValue, setSliderValue] = useState(30);
+  const [sliderValue, setSliderValue] = useState(2);
 
   const handleSliderChange = (event :any) => {
     setSliderValue(event.target.value);
   };
 
+  const [billing , setBilling] = useState('monthly')
 
     return (
       <div className="px-0 pb-20 bg-[#0a0a0a]  mx-auto ">
@@ -66,8 +67,12 @@ export default function PricingDetails() {
              </div>
 
              <div className="tabs tabs-boxed w-fit mx-auto">
-               <a className="tab tab-active font-customsemibold ">Monthly Billing</a> 
-               <a  className="tab  font-customsemibold  ">Yearly Billing ( 20% off )</a> 
+               <a onClick={()=>setBilling('monthly')}  className={billing === 'monthly' ?  'tab tab-active font-customsemibold' : 'tab  font-customsemibold '} >
+                   Monthly Billing
+               </a> 
+               <a onClick={()=>setBilling('yearly')} className={billing === 'yearly' ?  'tab tab-active font-customsemibold' : 'tab  font-customsemibold '}>
+                  Yearly Billing ( 10% off )
+               </a> 
              </div>
 
            </div>
