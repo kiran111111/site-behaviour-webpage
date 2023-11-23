@@ -90,7 +90,9 @@ export default function PricingDetails() {
                 <div className="mt-3 space-y-3 pb-5 text-gray-700 text-md border-b-2 border-zinc-200">
                 Best for side projects and startups with limited visitors
                   </div>
-                <p className='font-custombold text-4xl mt-6 mb-4'>$2.66</p>
+                <p className='font-custombold text-4xl mt-6 mb-4'>
+                   ${billing === 'yearly' ? (2.66*12 - 2.66) : 2.66} 
+                </p>
                 <p className='text-gray-700 font-customsemimedium text-sm'>Per month</p>
             </div>
 
@@ -136,7 +138,23 @@ export default function PricingDetails() {
                 <div className="mr-1 text-3xl font-customsemibold">Business</div>
                 <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
                 <p className='font-custombold text-4xl mt-6 mb-4'>
-                   ${sliderValue > 6 ?  (11.89 + ((sliderValue-6)*8)) : 11.89 } 
+
+                   ${sliderValue > 6 ?  
+                      <>
+                      {billing === 'yearly' ? 
+                         ( (11.89 + ((sliderValue-6)*8)) *12 - (11.89 + ((sliderValue-6)*8))) 
+                         :
+                         (11.89 + ((sliderValue-6)*8))
+                       } 
+                      </>
+                       :
+                       <>
+                       {billing === 'yearly' ? (11.89*12 - 11.89) : 11.89} 
+                        
+                      </>
+                    } 
+
+                   {/* ${billing === 'yearly' ? (2.66*12 - 2.66) : 2.66} */}
                 </p>
                 <p className='text-gray-300 font-customsemimedium text-md'>Per month</p>
             </div>
