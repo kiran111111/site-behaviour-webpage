@@ -10,7 +10,7 @@ export default function PricingDetails() {
     setIsChecked(!isChecked);
   };
 
-  const [sliderValue, setSliderValue] = useState(2);
+  const [sliderValue, setSliderValue] = useState(1);
 
   const handleSliderChange = (event :any) => {
     setSliderValue(event.target.value);
@@ -142,17 +142,17 @@ export default function PricingDetails() {
                    ${sliderValue > 6 ?  
                       <>
                       {billing === 'yearly' ? 
-                         ( (11.89 + ((sliderValue-6)*8)) *12 - (11.89 + ((sliderValue-6)*8))) 
+                         ( (11.89 + ((sliderValue-6)*8)) *12 - (11.89 + ((sliderValue-6)*8))).toFixed(2)
                          :
-                         (11.89 + ((sliderValue-6)*8))
+                         (11.89 + ((sliderValue-6)*8)).toFixed(2)
                        } 
                       </>
                        :
                        <>
-                       {billing === 'yearly' ? (11.89*12 - 11.89) : 11.89} 
+                         {billing === 'yearly' ? (11.89*12 - 11.89).toFixed(2) : 11.89} 
                         
                       </>
-                    } 
+                     } 
 
                    {/* ${billing === 'yearly' ? (2.66*12 - 2.66) : 2.66} */}
                 </p>
