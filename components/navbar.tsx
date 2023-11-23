@@ -107,7 +107,7 @@ export default function Navbar() {
                   </div>
 
                   <div className="hidden sm:ml-6 lg:block   ">
-                    <div className="flex  space-x-3 ">
+                    <div className="flex  space-x-3  items-start">
             
                       {/* {navigation.map((item) => (
                         <Link
@@ -130,7 +130,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('home')}
                           className={classNames(
                             router.pathname === '/home' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base text-sm '
+                            'rounded-full  px-4  py-1 mt-1 font-customregular lg:text-base text-sm '
                           )}
                           aria-current={'home' ? 'page' : undefined}
                         >
@@ -141,7 +141,7 @@ export default function Navbar() {
                         <Popover.Button 
                              className={classNames(
                                 router.pathname.match(/features/i)  ? 'text-white bg-gray-700' : 'text-white' , 
-                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base  font-customregular px-4 py-0.5 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base  font-customregular px-4 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
                           {/* <span className={classNames(
@@ -190,7 +190,7 @@ export default function Navbar() {
                         <Popover.Button 
                              className={classNames(
                                 router.pathname === '/solution' ? 'text-white bg-gray-700' : 'text-white' , 
-                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base text-sm  font-customregular px-4 py-0.5 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
+                                "border-none outline-none inline-flex items-center gap-x-2 lg:text-base text-sm  font-customregular px-4 mt-1 rounded-3xl lg:leading-8 text-gray-300 hover:bg-gray-700 hover:text-white"
                                 )}
                              >
                           {/* <span className={classNames(
@@ -241,7 +241,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('pricing')}
                           className={classNames(
                             router.pathname === '/pricing' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base  text-sm '
+                            'rounded-full  px-4 py-1 mt-1 font-customregular lg:text-base  text-sm '
                           )}
                           aria-current={'pricing' ? 'page' : undefined}
                         >
@@ -267,7 +267,7 @@ export default function Navbar() {
                           onClick={() => handleItemClick('contact')}
                           className={classNames(
                             router.pathname === '/contact' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
-                            'rounded-full  px-4 pt-0.5 pb-1 mt-2 font-customregular lg:text-base  text-sm '
+                            'rounded-full  px-4 py-1 mt-1  font-customregular lg:text-base  text-sm '
                           )}
                           aria-current={'contact' ? 'page' : undefined}
                         >
