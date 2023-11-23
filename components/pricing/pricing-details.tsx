@@ -45,7 +45,7 @@ export default function PricingDetails() {
              </div>
          
             <div className='flex lg:my-0 lg:mx-0  sm:mx-12 mx-0 mt-12'>
-                 <span className='text-xs mt-1 mr-3 font-customsemibold'>0</span>
+                 <span className='text-xs mt-1 mr-3 font-customsemibold'>1k</span>
                   <div className="mx-auto mt-0 relative inline w-full ">
 
                      <input type="range" 
