@@ -19,7 +19,7 @@ export default function CTA2Section() {
                
                  <div className="flex items-center justify-center  sm:flex-row flex-col ">
                     <a
-                        href="/contact"
+                        href="/getstarted"
                         className="inline-flex items-center mb-4 sm:mr-6  justify-center h-12 px-6  font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none "
                     >
                         Get started
