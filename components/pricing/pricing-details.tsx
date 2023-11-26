@@ -102,7 +102,7 @@ export default function PricingDetails() {
                   <a
                      href="/contact"
                      style={{borderWidth : '1px'}}
-                     className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
+                     className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-black hover:border-white hover:text-white  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
                   >
                      Get Started 
                   </a>
@@ -114,19 +114,31 @@ export default function PricingDetails() {
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-white.svg" />
-                    <span>3000 visitors per month</span>
+                    <span>3000 visits per month</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
+                    <span>Session Recordings</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
+                    <span>5 Funnels per Project</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
+                    <span>5 Heatmaps per Project</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
+                    <span>1.5 million Custom Events</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
+                    <span>Full access to every feature </span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-white.svg" />
                     <span>24/7 Support</span>
-                 </li>
-                 <li className='mb-4'>             
-                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
-                    <span>2 Funnels per Project</span>
-                 </li>
-                 <li className='mb-4'>             
-                    <img className='inline mr-2' src="/assets/list-circle-white.svg" />
-                    <span>Full access to every feature</span>
                  </li>
 
               </ul>
@@ -159,7 +171,9 @@ export default function PricingDetails() {
                 <p className='text-gray-300 font-customsemimedium text-md'>Per month</p>
             </div>
 
-            <div className='mt-4'>
+            
+
+            <div className='mt-3'>
               <a
                 href="/contact"
                 style={{borderWidth : '1px'}}
@@ -167,26 +181,51 @@ export default function PricingDetails() {
               >
                  Get Started 
               </a>
+
+              <div className="flex bg-green-400 p-2 px-3  rounded-3xl items-center mt-4">
+                <p className='flex-1 text-black font-custommedium'>Session Recordings</p>
+
+                <label className="switch">
+                  <input type="checkbox"></input>
+                  <span className="slider round"></span>
+                </label>
+              </div>
+
+
               <ul className="max-w-xs mt-6  font-customregular text-xs text-gray-300 sm:text-sm  sm:max-w-sm ">
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Unlimited websites</span>
+                    <span>20 Websites / Projects</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Own analytics platformh</span>
+                    <span>Upto 100k visits / month</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Fully support with decisions</span>
+                    <span>Unlimited Session recordings</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Upto 100k users</span>
+                    <span>Unlimited Funnels</span>
                  </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>Unlimited Heatmaps</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>Unlimited Custom Events</span>
+                 </li>
+              
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
                     <span>Full access to every feature</span>
+                 </li>
+
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>24/7 Support</span>
                  </li>
 
               </ul>
@@ -216,7 +255,19 @@ export default function PricingDetails() {
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
-                    <span>Unlimited Users</span>
+                    <span>Unlimited visits / month</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>Unlimited Session Recordings</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>Unlimited Funnels</span>
+                 </li>
+                 <li className='mb-4'>             
+                    <img className='inline mr-2' src="/assets/list-circle-gray.svg" />
+                    <span>Unlimited Heatmaps</span>
                  </li>
                  <li className='mb-4'>             
                     <img className='inline mr-2' src="/assets/list-circle-gray.svg" />

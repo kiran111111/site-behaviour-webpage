@@ -133,7 +133,12 @@ export default function AllFeaturesSection(){
 
                         <div  onClick={()=>setFeature('JourneyMap')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'JourneyMap' ?  
+                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                :
+                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                    }
+                                >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/journey.svg' />
@@ -143,7 +148,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('CustomEvents')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'CustomEvents' ?  
+                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                :
+                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                    }
+                             >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/click.svg' />
@@ -154,7 +164,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('MobileApp')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'MobileApp' ?  
+                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                              :
+                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                              }
+                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/phone.svg' />
@@ -165,7 +180,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('TrafficSource')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'TrafficSource' ?  
+                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                :
+                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                    }
+                             >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/maps.svg' />
@@ -176,7 +196,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('RealTimeStats')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'RealTimeStats' ?  
+                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                :
+                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                    }
+                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/chart.svg' />
@@ -187,7 +212,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('FlexibleFilters')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'FlexibleFilters' ?  
+                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                               :
+                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                              }
+                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/filter.svg' />
@@ -198,7 +228,12 @@ export default function AllFeaturesSection(){
 
                          <div  onClick={()=>setFeature('Report')} 
                               style={{borderWidth : '2px '}} 
-                              className="bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4">
+                              className={feature === 'Report' ?  
+                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                 :
+                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                              }
+                             >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
                                  tiltMaxAngleY={40}>
                                    <img className="h-16 pb-4 text-center inline-block" src='/assets/home/allfeatures/integration.svg' />
@@ -267,19 +302,19 @@ export default function AllFeaturesSection(){
                  <div data-aos="fade-up" data-aos-duration="600"  className="grid md:max-w-5xl max-w-xl items-center  mx-6 sm:mx-auto  grid-cols-5 gap-2 row-gap-6 mb-6 sm:grid-cols-5 lg:grid-cols-5">
                  
                       <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16" src="/assets/home/slack-icon.svg" />
+                        <img className="w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
                       </div>
                       <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16" src="/assets/home/slack-icon.svg" />
+                        <img className="w-8 lg:w-16" src="/assets/home/integration/slack.svg" />
                       </div>
                       <div className="flex items-center justify-center w-12 h-12  sm: mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24 lg:w-32 lg:h-32">
-                        <img className=" w-8 lg:w-16" src="/assets/home/slack-icon.svg" />
+                        <img className=" w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
+                      </div>
+                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4  rounded-full bg-zinc-900 sm:w-24 sm:h-24">
+                        <img className="w-8 lg:w-16 p-1" src="/assets/home/integration/jira.svg" />
                       </div>
                       <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16" src="/assets/home/slack-icon.svg" />
-                      </div>
-                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16" src="/assets/home/slack-icon.svg" />
+                        <img className="w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
                       </div>
 
                 </div>
