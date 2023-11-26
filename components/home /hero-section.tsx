@@ -16,7 +16,7 @@ export default function HeroSection(){
                             and mobile app that puts daily stats on your finger
                             tips.
                       </p>
-                      <a href="/contact">
+                      <a href="/getstarted">
                         <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">
                            Get Early Access
                         </button>

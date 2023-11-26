@@ -100,7 +100,7 @@ export default function PricingDetails() {
                {sliderValue > 3 ?
                  "" :
                   <a
-                     href="/contact"
+                     href="/getstarted"
                      style={{borderWidth : '1px'}}
                      className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-black hover:border-white hover:text-white  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
                   >
@@ -175,7 +175,7 @@ export default function PricingDetails() {
 
             <div className='mt-3'>
               <a
-                href="/contact"
+                href="/getstarted"
                 style={{borderWidth : '1px'}}
                 className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
               >
@@ -242,7 +242,7 @@ export default function PricingDetails() {
 
             <div className='mt-4'>
               <a
-                href="/contact"
+                href="/getstarted"
                 style={{borderWidth : '1px'}}
                 className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
               >

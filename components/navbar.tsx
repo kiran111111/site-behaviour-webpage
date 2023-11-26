@@ -78,7 +78,7 @@ export default function Navbar() {
 
  
 
-      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[80%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
+      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[90%] xl:w-[65%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-0 sm:px-2 lg:px-2 ">
@@ -95,7 +95,7 @@ export default function Navbar() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <a href="/">
                       <img
@@ -279,11 +279,10 @@ export default function Navbar() {
 
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  
-
+                
                   {/* Profile dropdown */}
 
-                  <a href="/contact">
+                  <a href="/getstarted">
                     <button className='bg-green-400 text-xs  sm:text-sm lg:text-lg text-black hover:bg-white hover:text-black font-custombold lg:font-custommedium py-2 md:px-3 px-2 rounded-3xl'>
                         Get Started
                     </button>
