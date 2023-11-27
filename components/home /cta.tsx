@@ -63,7 +63,7 @@ export default function CTASection() {
         <div className="relative flex lg:flex-row flex-col rounded-xl bg-[#dbffdc] px-4 pt-16 mx-auto lg:py-16 md:px-8 xl:px-20 sm:max-w-xl md:max-w-[90rem]">
             <div className=" mx-auto lg:max-w-screen-xl">
                 <div className="mb-8 lg:max-w-lg lg:mb-0">
-                    <div className="max-w-xl mb-6">
+                    <div className="max-w-xl mb-6 lg:mt-12">
                 
                     <h2 data-aos="fade-up" data-aos-duration="600" className="max-w-lg mb-6 font-customsemibold text-4xl  tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                         24/7 Support {' '}

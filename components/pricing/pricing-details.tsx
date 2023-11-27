@@ -75,10 +75,10 @@ export default function PricingDetails() {
              </div> */}
 
              <div className="tabs tabs-boxed w-fit mx-auto">
-               <a onClick={()=>setBilling('monthly')}  className={billing === 'monthly' ?  'tab tab-active font-customsemibold' : 'tab  font-customsemibold '} >
+               <a onClick={()=>setBilling('monthly')}  className={billing === 'monthly' ?  'tab tab-active font-customsemibold md:w-fit w-full' : 'tab  font-customsemibold md:w-fit w-full '} >
                    Monthly Billing
                </a> 
-               <a onClick={()=>setBilling('yearly')} className={billing === 'yearly' ?  'tab tab-active font-customsemibold' : 'tab  font-customsemibold '}>
+               <a onClick={()=>setBilling('yearly')} className={billing === 'yearly' ?  'tab tab-active font-customsemibold md:w-fit w-full' : 'tab  font-customsemibold md:w-fit w-full'}>
                   Yearly Billing ( 10% off )
                </a> 
              </div>
@@ -89,9 +89,9 @@ export default function PricingDetails() {
          <div data-aos="fade-up"  className="grid px-3 sm:px-6 xl:max-w-screen-xl  row-gap-5  sm:row-gap-5 lg:grid-cols-3 sm:mx-auto">
 
                <div className={visitsValue > 3 ? 
-               "flex flex-col  p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow"
+               "flex flex-col lg:p-6 p-4  lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow"
                   :
-               `flex flex-col   p-6 lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow` 
+               `flex flex-col  lg:p-6 p-4  lg:mr-6 mr-0 transition-shadow duration-300 bg-white mb-6 rounded-lg shadow-sm  hover:shadow` 
                   }>   
                <div className="text-left text-black">
                   <div className="mr-1 text-3xl font-customsemibold">Startup Plan</div>
@@ -153,7 +153,7 @@ export default function PricingDetails() {
                </div>
                </div>
        
-               <div className="flex  relative  flex-col  p-6  transition-shadow duration-300 bg-gray-700 mb-6 lg:border-r-2 lg:border-slate-500  lg:rounded-r-none rounded-lg   shadow-sm  hover:shadow">   
+               <div className="flex  relative  flex-col  lg:p-6 p-4  transition-shadow duration-300 bg-gray-700 mb-6 lg:border-r-2 lg:border-slate-500  lg:rounded-r-none rounded-lg   shadow-sm  hover:shadow">   
                   <div className=" text-left text-white">
                         <div className="mr-1 text-3xl font-customsemibold">Business</div>
                         <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">Best for small to large traffic or when advanced analytics tools are needed</div>
@@ -193,7 +193,7 @@ export default function PricingDetails() {
                            Get Started 
                         </a>
 
-                        {/* <div className='flex flex-col bg-gray-800 items-center rounded-md pt-2 pb-1 px-2 lg:-mx-0    lg:mt-4   sm:mx-12  mt-12 '>
+                        <div className='lg:hidden flex flex-col bg-gray-800 items-center rounded-md pt-2 pb-1 px-2 lg:-mx-0    lg:mt-4   sm:mx-0  mt-6 '>
                               <div className='flex flex-start w-full mx-3 mb-2'>
                                  <p className='text-xs grow  font-customsemibold mt-0 mr-2 '>Visits</p>
                                  <p className='text-xs font-customsemibold mt-1 ml-3'>{visitsValue}k</p>
@@ -209,7 +209,7 @@ export default function PricingDetails() {
                               
                         </div>
 
-                        <div className='flex flex-col bg-gray-800 items-center rounded-md pt-2 pb-1 px-2 lg:mx-0   lg:mt-4   sm:mx-12  mt-12 '>
+                        <div className='lg:hidden flex flex-col bg-gray-800 items-center rounded-md pt-2 pb-1 px-2 lg:mx-0   lg:mt-4   sm:mx-0  mt-4 '>
                               <div className='flex flex-start w-full mx-3 mb-2'>
                                  <p className='text-xs grow  font-customsemibold mt-0 mr-2 '>Session Recordings</p>
                                  <p className='text-xs font-customsemibold mt-1 ml-3'>{recordingsValue}k</p>
@@ -218,13 +218,13 @@ export default function PricingDetails() {
                                  <input type="range" 
                                        value={recordingsValue}
                                        onChange={handleRecordingsChange} 
-                                       min={1} step={1} max="100" 
+                                       min={1} step={1} max={visitsValue} 
                                     className="range range-success" 
                                  />  
                               </div>
                               
                         </div>
-                     */}
+                    
 
                   </div>
 
@@ -280,7 +280,7 @@ export default function PricingDetails() {
                
                </div>
               
-               <div className="flex flex-col  p-6 transition-shadow duration-300 bg-gray-700  mb-6  rounded-r-lg lg:rounded-l-none rounded-lg shadow-sm  hover:shadow">   
+               <div className="flex flex-col  lg:p-6 p-4  transition-shadow duration-300 bg-gray-700  mb-6  rounded-r-lg lg:rounded-l-none rounded-lg shadow-sm  hover:shadow">   
                   <div className="text-left text-white">
                      <div className="mr-1 text-3xl font-customsemibold">Enterprise</div>
                      <div className="mt-3 space-y-3 pb-5 text-gray-100 text-md border-b-2 border-zinc-200">For Enterprise users that require a custom solution</div>
@@ -337,7 +337,7 @@ export default function PricingDetails() {
           </div>
 
       
-            <div className='  bg-gray-800 relative mt-8  mx-auto max-w-6xl rounded-xl p-4 shadow-lg '>
+            <div className='hidden lg:block  bg-gray-800 relative mt-8  mx-auto max-w-6xl rounded-xl p-4 shadow-lg '>
                   <div 
                      style={{
                         borderLeft : '20px solid transparent' , 
@@ -346,15 +346,6 @@ export default function PricingDetails() {
                       }} className='arrow w-0 h-0  mx-auto absolute -top-5 left-[47%]'>
 
                   </div>
-              
-                  {/* <div style={{}}  className='  flex flex-row rounded-t-lg ' >
-                     <div style={{flex:'1 1 70%'}} className='  p-4  '>
-                        <p className='text-lg font-customsemibold'>Product</p>
-                     </div>
-                     <div style={{flex:'1 1 30%'}} className='text-lg font-customsemibold p-4 text-center'>
-                           <p>Cost Breakdown</p>
-                     </div> 
-                  </div> */}
                   <div  className='  border-t-0 flex flex-row items-center ' >
                      <div style={{flex:'1 1 70%' }} className='  p-4 py-6  '>
                         <p className='text-lg font-customsemibold'>Visits</p>
@@ -391,7 +382,7 @@ export default function PricingDetails() {
                   </div>
                   <div  className='  border-t-0 flex flex-row items-center rounded-b-lg ' >
                      <div style={{flex:'1 1 70%' }} className='p-4 py-6 '>
-                        <p className='text-lg font-customsemibold'>Session Recordings</p>
+                        <p className='text-lg font-customsemibold'>Session Recordings ( {recordingsValue}k )</p>
                         <p className='text-sm text-gray-300 font-customregular my-2'>
                            Error monitoring usage is defined by the number of errors collected by Highlight per month.
                               Our frontend/server SDKs send errors, but you can also send custom errors.
@@ -407,12 +398,12 @@ export default function PricingDetails() {
                                     min={1} step={1} max={visitsValue} 
                                  className="range range-success" 
                               />  
-                              <div
+                              {/* <div
                                  className="bg-green-400 font-customsemibold text-xs text-black text-center px-4 py-1 w-12  -top-10 rounded-3xl  absolute"
-                                 style={{ left: `${recordingsValue}%` }}
+                                 style={{ left: `${((100-recordingsValue)/visitsValue)}%` }}
                                  >
                                  {recordingsValue}k
-                              </div>
+                              </div> */}
                            </div>
                            <p className='text-sm font-customsemibold -mt-1 ml-3'>{visitsValue}k</p>
                         
@@ -423,7 +414,7 @@ export default function PricingDetails() {
                            <p className='text-2xl'>${(recordingsValue *  1000 * 0.0056).toFixed(2)} </p>
                      </div> 
                   </div> 
-         </div>
+           </div>
 
       </div>
     );
