@@ -404,7 +404,7 @@ export default function PricingDetails() {
                               <input type="range" 
                                     value={recordingsValue}
                                     onChange={handleRecordingsChange} 
-                                    min={1} step={1} max="100" 
+                                    min={1} step={1} max={visitsValue} 
                                  className="range range-success" 
                               />  
                               <div
