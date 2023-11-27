@@ -409,7 +409,7 @@ export default function PricingDetails() {
                               />  
                               <div
                                  className="bg-green-400 font-customsemibold text-xs text-black text-center px-4 py-1 w-12  -top-10 rounded-3xl  absolute"
-                                 style={{ left: `${(recordingsValue-4) }%` }}
+                                 style={{ left: `${recordingsValue}%` }}
                                  >
                                  {recordingsValue}k
                               </div>
@@ -420,7 +420,7 @@ export default function PricingDetails() {
 
                      </div>
                      <div style={{flex:'1 1 30%'}} className='text-lg items-center font-customsemibold p-2 text-center'>
-                           <p className='text-2xl'>${recordingsValue *  1000 * 0.0056} </p>
+                           <p className='text-2xl'>${(recordingsValue *  1000 * 0.0056).toFixed(2)} </p>
                      </div> 
                   </div> 
          </div>
