@@ -299,23 +299,23 @@ export default function AllFeaturesSection(){
             <div className="text-center mx-auto py-12 pb-24 px-2">
                  <h2 data-aos="fade-up" data-aos-duration="600"  className="text-white font-customsemibold md:text-5xl text-3xl pb-12">Integrated with best apps</h2>
 
-                 <div data-aos="fade-up" data-aos-duration="600"  className="grid md:max-w-5xl max-w-xl items-center  mx-6 sm:mx-auto  grid-cols-5 gap-2 row-gap-6 mb-6 sm:grid-cols-5 lg:grid-cols-5">
+                 <div data-aos="fade-up" data-aos-duration="600"  className="grid max-w-[300px] items-center  mx-6 sm:mx-auto  grid-cols-2 gap-2 row-gap-2 mb-6 sm:grid-cols-2 lg:grid-cols-2">
                  
-                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
+                      {/* <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
                         <img className="w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
+                      </div> */}
+                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 lg:w-32 lg:h-32">
+                        <img className="w-8 lg:w-16 p-0" src="/assets/home/integration/slack.svg" />
                       </div>
-                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16" src="/assets/home/integration/slack.svg" />
-                      </div>
-                      <div className="flex items-center justify-center w-12 h-12  sm: mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24 lg:w-32 lg:h-32">
+                      {/* <div className="flex items-center justify-center w-12 h-12  sm: mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24 lg:w-32 lg:h-32">
                         <img className=" w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
+                      </div> */}
+                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4  rounded-full bg-zinc-900 sm:w-24 lg:w-32 lg:h-32">
+                        <img className="w-8 lg:w-16 p-0" src="/assets/home/integration/jira.svg" />
                       </div>
-                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4  rounded-full bg-zinc-900 sm:w-24 sm:h-24">
-                        <img className="w-8 lg:w-16 p-1" src="/assets/home/integration/jira.svg" />
-                      </div>
-                      <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
+                      {/* <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-zinc-900 sm:w-24 sm:h-24">
                         <img className="w-8 lg:w-16" src="/assets/home/integration/slack-icon.svg" />
-                      </div>
+                      </div> */}
 
                 </div>
 

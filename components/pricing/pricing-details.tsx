@@ -172,9 +172,9 @@ export default function PricingDetails() {
                               <>
                               ${
                                  billing === 'yearly' ? 
-                                    (11.89*12 - 11.89).toFixed(2) 
+                                     (recordingsValue *  1000 * 0.0056 * 11 + visitsValue *  1000 * 0.0005 * 11).toFixed(2) 
                                  : 
-                                    (visitsValue * 1000 * 0.0005 +  recordingsValue * 1000 * 0.0056).toFixed(2) 
+                                    (recordingsValue *  1000 * 0.0056  + visitsValue *  1000 * 0.0005 ).toFixed(2)
                                  } 
                                  
                               </>
@@ -377,7 +377,9 @@ export default function PricingDetails() {
 
                      </div>
                      <div style={{flex:'1 1 30%'}} className='text-lg items-center font-customsemibold p-2 text-center'>
-                           <p className='text-2xl'>${visitsValue *  1000 * 0.0005} </p>
+                           <p className='text-2xl'>$
+                             {billing === 'yearly' ? (visitsValue *  1000 * 0.0005 * 11).toFixed(2) : (visitsValue *  1000 * 0.0005).toFixed() }
+                         </p>
                      </div> 
                   </div>
                   <div  className='  border-t-0 flex flex-row items-center rounded-b-lg ' >
@@ -411,7 +413,9 @@ export default function PricingDetails() {
 
                      </div>
                      <div style={{flex:'1 1 30%'}} className='text-lg items-center font-customsemibold p-2 text-center'>
-                           <p className='text-2xl'>${(recordingsValue *  1000 * 0.0056).toFixed(2)} </p>
+                           <p className='text-2xl'>$
+                             {billing === 'yearly' ? (recordingsValue *  1000 * 0.0056 * 11).toFixed(2) : (recordingsValue *  1000 * 0.0056).toFixed(2) }
+                           </p>
                      </div> 
                   </div> 
            </div>
