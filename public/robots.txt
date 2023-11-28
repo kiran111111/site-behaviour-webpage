@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sitebehaviour.com/sitemap.xml
