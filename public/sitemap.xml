@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000/</loc>
+    <loc>https://sitebehaviour.com/</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/about</loc>
+    <loc>https://sitebehaviour.com/about</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/contact</loc>
+    <loc>https://sitebehaviour.com/contact</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/pricing</loc>
+    <loc>https://sitebehaviour.com/pricing</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/home</loc>
+    <loc>https://sitebehaviour.com/home</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/getstarted</loc>
+    <loc>https://sitebehaviour.com/getstarted</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/solution</loc>
+    <loc>https://sitebehaviour.com/solution</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/features/heatmap</loc>
+    <loc>https://sitebehaviour.com/features/heatmap</loc>
   </url>
   <url>
-    <loc>http://localhost:3000features/recordings</loc>
+    <loc>https://sitebehaviour.comfeatures/recordings</loc>
   </url>
   <url>
-    <loc>http://localhost:3000features/funnels</loc>
+    <loc>https://sitebehaviour.comfeatures/funnels</loc>
   </url>
 </urlset>
