@@ -30,7 +30,7 @@ export default function ContactForm(){
 
                     <form  action='https://submit-form.com/9cYesnOA' className="bg-[#DBFFDC] rounded-2xl px-6 pt-4 pb-2 font-customregular ">
 
-                        <h2 className="font-custombold text-3xl  text-black pb-8 pt-4">General Inquiries</h2>
+                        <h1 className="font-custombold text-3xl  text-black pb-8 pt-4">General Inquiries</h1>
 
 
                         <input

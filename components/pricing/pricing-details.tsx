@@ -33,9 +33,9 @@ export default function PricingDetails() {
             <div className=" pb-2 relative bg-cover bg-opacity-25 bg-no-repeat bg-bottom bg-[url('/assets/navbar/hero-background.png')] mb-2 mx-auto text-center md:mb-2">
 
                <div data-aos="fade-up">
-                  <p className="inline-block px-3 py-px mb-4 mt-12 sm:text-lg  text-sm font-semibold  text-zinc-300  rounded-full">
+                  <h2 className="inline-block px-3 py-px mb-4 mt-12 sm:text-lg  text-sm font-semibold  text-zinc-300  rounded-full">
                      We guarantee the best service for best price!
-                  </p>
+                  </h2>
                </div>
                <h2 data-aos="fade-up" style={{lineHeight : '1.2'}} className="max-w-2xl mb-8 font-custombold text-4xl font-bold leading-none tracking-tight text-white sm:text-6xl mx-auto">
                   Best Web Analytics,<br></br>for the Best Price.

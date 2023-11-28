@@ -13,9 +13,9 @@ export default function Title({title}:any) {
           <div className="px-4  md:pb-8 pt-16  pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
             <div className=" items-center text-center ">
               <div className=" w-full mx-auto   max-w-xl mb-12 xl:mb-0  xl:w-7/12">
-                <h2 data-aos="fade-up" data-aos-duration="700" className="max-w-lg mt-32 mx-auto md:text-5xl text-3xl mb-6 font-customsemibold">
+                <h1 data-aos="fade-up" data-aos-duration="700" className="max-w-lg mt-32 mx-auto md:text-5xl text-3xl mb-6 font-customsemibold">
                   {title}
-                </h2>
+                </h1>
                 {title && <p data-aos="fade-up" data-aos-duration="700" className="mb-12">Home / <span className="text-green-500">{title}</span> </p>}
               
               </div>
