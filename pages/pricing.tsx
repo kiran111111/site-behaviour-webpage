@@ -19,7 +19,7 @@ export default function Pricing() {
 
               <Head>
                     <title>Pricing | SiteBehaviour : Website Analytics Tool </title>
-                    <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+                    <meta name="description" content="We gaurantee the best service , in an affordable price.Customizable plans , only pay for what you use." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />

@@ -15,8 +15,9 @@ export default function Heatmap() {
          <div>    
 
                 <Head>
-                    <title>Heatmaps | SiteBehaviour : Website Analytics Tool | Click , Mouse , Scroll heatmaps  </title>
-                    <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+                    <title>Heatmaps | SiteBehaviour : Website Analytics Tool | Click , Mouse Movement , Scroll heatmaps  </title>
+                    <meta name="description" content="Capture and analyze recorded interactions of visitors navigating through your website to extract 
+                                 valuable insights and enhance your understanding of their online journey and user experience by using scoll heatmaps , click heatmaps and mouse movement heatmaps." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />

@@ -36,7 +36,7 @@ export default function GetStarted() {
 
                 <Head>
                     <title>Get Early Access | SiteBehaviour : Website Analytics Tool  </title>
-                    <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+                    <meta name="description" content="Get early access to our software , by signing up to our email list. Lets get started with easy and flexible web analytics tool." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />

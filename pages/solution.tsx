@@ -16,7 +16,7 @@ export default function About() {
 
                <Head>
                     <title>Solutions | SiteBehaviour : Website Analytics Tool  </title>
-                    <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+                    <meta name="description" content=" Increase conversions, optimize UI/UX, boost efficiency and unlock the full potential of your website , with the solutions that sitebehaviour tool offers" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />

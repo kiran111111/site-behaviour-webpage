@@ -16,7 +16,7 @@ export default function Home() {
          <div>    
 
        <Head>
-          <title>SiteBehaviour : Website Analytics Tool | Session Recordings , Heatmaps and Flexible Funnels </title>
+          <title>Home | SiteBehaviour : Website Analytics Tool | Session Recordings , Heatmaps and Flexible Funnels </title>
           <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <meta char-set="UTF-8"></meta>
