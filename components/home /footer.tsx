@@ -64,7 +64,7 @@ export default function Footer() {
                 title="Our email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                jassa.developer@gmail.com
+                info@sitebehaviour.com
               </a>
             </div>
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">

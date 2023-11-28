@@ -56,7 +56,7 @@ export default function ContactForm(){
                             </div>
                         </div>
 
-                        <div className="form-control w-full  mt-6 gap-6 grid sm:grid-cols-2 justify-items-stretch">
+                        {/* <div className="form-control w-full  mt-6 gap-6 grid sm:grid-cols-2 justify-items-stretch">
                             <div className="w-full ">
                                 <label className="label">
                                     <span className="label-text text-gray-900 font-customsemibold">Phone number</span>
@@ -71,7 +71,7 @@ export default function ContactForm(){
                                 <input name='subject' type="text" placeholder="Ex.Support" className="input bg-white  text-black w-full " > 
                                 </input>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="form-control w-full  mt-6 gap-6 grid grid-cols-1 justify-items-stretch">
                             <div className="w-full ">
@@ -111,7 +111,7 @@ export default function ContactForm(){
                             <img src="/assets/contact/contact-2.png" ></img>
                         </p>
                         <p className="text-xl font-customsemibold mt-4">Call us</p>
-                        <p className="text-zinc-700">+1-437-225-3556</p>
+                        <p className="text-zinc-700">+1-437-229-1838</p>
                     </div>
 
                     <div className="text-center md:mt-0 mt-12">
