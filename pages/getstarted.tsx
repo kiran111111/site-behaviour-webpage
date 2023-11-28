@@ -13,6 +13,8 @@ import Footer from "../components/home /footer"
 
 import Tilt from 'react-parallax-tilt';
 
+import Head from 'next/head'
+
 export default function GetStarted() {
 
     const [submitted , setSubmitted] = useState(false)
@@ -31,6 +33,16 @@ export default function GetStarted() {
 
     return (
          <div>    
+
+                <Head>
+                    <title>Get Early Access | SiteBehaviour : Website Analytics Tool  </title>
+                    <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
+
     
             <div className=" lg:flex    h-screen w-screen bg-white relative  mx-auto  ">
                 <div className="z-0 flex justify-center   overflow-hidden   xl:pr-0 lg:w-1/2  lg:justify-end lg:bottom-0 lg:left-0 items-center">
