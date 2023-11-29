@@ -37,9 +37,9 @@ export default function PricingDetails() {
                      We guarantee the best service for best price!
                   </h2>
                </div>
-               <h2 data-aos="fade-up" style={{lineHeight : '1.2'}} className="max-w-2xl mb-8 font-custombold text-4xl font-bold leading-none tracking-tight text-white sm:text-6xl mx-auto">
+               <h1 data-aos="fade-up" style={{lineHeight : '1.2'}} className="max-w-2xl mb-8 font-custombold text-4xl font-bold leading-none tracking-tight text-white sm:text-6xl mx-auto">
                   Best Web Analytics,<br></br>for the Best Price.
-               </h2>
+               </h1>
                
             </div>
         </div>

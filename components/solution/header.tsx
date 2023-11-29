@@ -9,9 +9,9 @@ export default function Header(){
                 <div className="p-8 rounded shadow-xl sm:p-16">
                   <div className="flex flex-col lg:flex-row">
                     <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-                      <h2 style={{lineHeight:'124%'}} className="text-5xl  font-customsemibold  tracking-tight text-white sm:text-6xl ">
+                      <h1 style={{lineHeight:'124%'}} className="text-5xl  font-customsemibold  tracking-tight text-white sm:text-6xl ">
                          Web Wisdom : <br></br> Turning Traffic into Tactics.
-                      </h2>
+                      </h1>
                     </div>
                     <div className="lg:w-1/2">
                       <p className="mb-4 text-lg text-zinc-300">
