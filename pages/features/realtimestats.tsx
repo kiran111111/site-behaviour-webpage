@@ -6,10 +6,22 @@ import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
+import Head from 'next/head'
+
 
 export default function RealTimeStats() {
     return (
          <div>    
+
+
+               <Head>
+                    <title> Real-Time Statistics | SiteBehaviour: Timely Decisions|Monitoring </title>
+                    <meta name="description" content="Harness the power of real-time analytics for proactive content optimization, responsive strategy adjustments, and swift issue resolution. Keep your digital presence agile, informed, and finely tuned to meet the ever-evolving expectations of your audience.." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
     
               <Navbar />
 
@@ -53,7 +65,7 @@ export default function RealTimeStats() {
                         <ul className="space-y-3 mx-auto">
                             <li className="flex font-customsemibold text-lg items-center  text-black">
                                 <img className="mr-2 " src="/assets/features/tick.svg" />
-                                 Agile Decision-Making: 
+                                 Agile Decision-Making
                             </li> 
                         </ul>
                         <ul className="space-y-3 mx-auto">

@@ -6,10 +6,23 @@ import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
+import Head from 'next/head'
+
 
 export default function UserJourney() {
     return (
          <div>    
+
+                 <Head>
+                    <title> User Journey | SiteBehaviour: Stages and Touchpoints </title>
+                    <meta name="description" content="Gain valuable insights into user behavior by visually tracking 
+                    the routes they follow during their online experience. 
+                  " />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
     
               <Navbar />
               

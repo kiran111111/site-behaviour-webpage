@@ -6,10 +6,26 @@ import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
+import Head from 'next/head'
 
 export default function CustomCharts() {
     return (
          <div>    
+
+
+
+                <Head>
+                    <title> Custom Charts | SiteBehaviour: Tailored Visualization | Analysis</title>
+                    <meta name="description" content="Elevate your data-driven decision-making with our
+                      analytics tool's custom charts feature. Tailor visualizations to your precise needs,
+                      enabling targeted representation of key metrics and fostering a 
+                      nuanced understanding of your data." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
+    
     
               <Navbar />
               

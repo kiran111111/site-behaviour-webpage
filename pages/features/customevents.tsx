@@ -6,10 +6,23 @@ import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
+import Head from 'next/head'
 
 export default function CustomEvents() {
     return (
          <div>    
+
+
+                <Head>
+                    <title>  Custom Events | SiteBehaviour: Flexible and Targeted Approach</title>
+                    <meta name="description" content="Personalize your analytics experience by incorporating custom 
+                        events that hold significance for your unique requirements. Tailor the data to focus on
+                        events that matter most to you, providing a more targeted and relevant insight." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
     
               <Navbar />
               

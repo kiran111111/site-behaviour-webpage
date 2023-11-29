@@ -6,10 +6,23 @@ import Footer from "../../components/home /footer"
 import CTA2Section from "../../components/home /cta2"
 
 import { FaPlay } from "react-icons/fa";
+import Head from 'next/head'
+
 
 export default function GeographicalsDetails() {
     return (
          <div>    
+
+
+                <Head>
+                    <title> Geographical Details | SiteBehaviour: Targeted Marketing Campaign </title>
+                    <meta name="description" content="Gain valuable insights into user demographics and regional engagement, allowing you to fine-tune your content, marketing strategies, and user experience based on specific geographic preferences." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta char-set="UTF-8"></meta>
+                    <link rel="icon" href="/assets/favicon.png" />
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+               </Head> 
+    
     
               <Navbar />
 

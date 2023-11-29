@@ -30,5 +30,24 @@
   <url>
     <loc>https://sitebehaviour.com/features/funnels</loc>
   </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/userjourney</loc>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/report</loc>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/customevents</loc>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/customcharts</loc>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/geographicaldetails</loc>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/features/realtimestats</loc>
+  </url>
+
   
 </urlset>
