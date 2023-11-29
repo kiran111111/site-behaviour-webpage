@@ -16,10 +16,10 @@ const navigation = [
 ]
 
 const solutions = [
-  { name: 'Startups',value:'solution' , description: 'Empower your startup to get more user conversions', href: '/solution', icon: '/assets/navbar/rocket (1).svg' },
-  { name: 'Project Teams',value:'solution' , description: "Elevate your team's decicion- making with our data driven insights", href: '/solution', icon: '/assets/navbar/cube (1).svg'  },
-  { name: 'UI/UX',value:'solution' , description: "Increase conversions by optimizing UI/UX with our tools.", href: '/solution', icon: '/assets/navbar/layout (1).svg' },
-  { name: 'Marketing Teams',value:'solution' , description: 'Fine tune your marketing startegies for optimal results', href: '/solution', icon: '/assets/navbar/loud-speaker.svg'  },
+  { name: 'Startups',value:'solution' , description: 'Empower your startup to get more user conversions', href: '/solutions', icon: '/assets/navbar/rocket (1).svg' },
+  { name: 'Project Teams',value:'solution' , description: "Elevate your team's decicion- making with our data driven insights", href: '/solutions', icon: '/assets/navbar/cube (1).svg'  },
+  { name: 'UI/UX',value:'solution' , description: "Increase conversions by optimizing UI/UX with our tools.", href: '/solutions', icon: '/assets/navbar/layout (1).svg' },
+  { name: 'Marketing Teams',value:'solution' , description: 'Fine tune your marketing startegies for optimal results', href: '/solutions', icon: '/assets/navbar/loud-speaker.svg'  },
 ]
 
 const features = [
@@ -31,7 +31,7 @@ const features = [
   { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features/customevents', icon: '/solution/allfeaturesicons/click.svg'  },
   { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features/customcharts', icon: '/solution/allfeaturesicons/stats.svg' },
   { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features/geographicaldetails', icon: '/solution/allfeaturesicons/map.svg'  },
-  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/realtimestats', icon: '/solution/allfeaturesicons/time.svg' },
+  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/real-time-statistics', icon: '/solution/allfeaturesicons/time.svg' },
  
 ]
 
