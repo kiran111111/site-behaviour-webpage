@@ -14,7 +14,7 @@ export default function UserJourney() {
          <div>    
 
                  <Head>
-                    <title> User Journey | SiteBehaviour: Stages and Touchpoints </title>
+                    <title> UserJourney | SiteBehaviour: Stages and Touchpoints </title>
                     <meta name="description" content="Gain valuable insights into user behavior by visually tracking 
                     the routes they follow during their online experience. 
                   " />

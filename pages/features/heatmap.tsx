@@ -15,7 +15,7 @@ export default function Heatmap() {
          <div>    
 
                 <Head>
-                    <title>Heatmaps | SiteBehaviour: Click, Mouse Movement ,Scroll heatmaps </title>
+                    <title>Heatmaps | SiteBehaviour: Click, Mouse Movement ,Scroll heatmap </title>
                     <meta name="description" content="Examine recorded visitor interactions on your website to gain a detailed
                      understanding of their online journey, Analyzing these details and make informed optimizations" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>

@@ -14,7 +14,7 @@ export default function CustomEvents() {
 
 
                 <Head>
-                    <title>  Custom Events | SiteBehaviour: Flexible and Targeted Approach</title>
+                    <title>  CustomEvents | SiteBehaviour: Flexible and Targeted Approach</title>
                     <meta name="description" content="Personalize your analytics experience by incorporating custom 
                         events that hold significance for your unique requirements. Tailor the data to focus on
                         events that matter most to you, providing a more targeted and relevant insight." />
