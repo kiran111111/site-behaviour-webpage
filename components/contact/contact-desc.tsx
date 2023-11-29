@@ -58,6 +58,43 @@ export default function  ContentDesc() {
             </div>
           </div>
         </div>
+
+        <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
+          <div className="duration-300 transform bg-white border-l-8 border-green-400 hover:-translate-y-2">
+            <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+              <h6 className="mb-2 font-semibold leading-5 text-black">Email Support</h6>
+              <p className="text-sm text-gray-900">
+                 Send us an email for any queries , and we will get back to you as soon as possible.
+              </p>
+            </div>
+          </div>
+          <div className="duration-300 transform bg-white border-l-8 border-green-400 hover:-translate-y-2">
+            <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+              <h6 className="mb-2 font-semibold leading-5 text-black">Assistance</h6>
+              <p className="text-sm text-gray-900">
+                 We're happy to answer questions and get you acquainted with Sitebehaviour.
+              </p>
+            </div>
+          </div>
+          <div className="duration-300 transform bg-white border-l-8 border-green-400 hover:-translate-y-2">
+            <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+              <h6 className="mb-2 font-semibold leading-5 text-black">
+                 Solutions
+              </h6>
+              <p className="text-sm text-gray-900">
+                 Sign up today for a personalized demo and find out how SiteBehaviour can provide you  user behavioural data .
+              </p>
+            </div>
+          </div>
+          <div className="duration-300 transform bg-white border-l-8 border-green-400 hover:-translate-y-2">
+            <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+              <h6 className="mb-2 font-semibold leading-5 text-black">Accelerate your coversion rate</h6>
+              <p className="text-sm text-gray-900">
+                Connect with us today to get a deeper dive into our tool and take your website's conversion rate to next level.
+              </p>
+            </div>
+          </div>
+        </div>
         
       </div>
     );
