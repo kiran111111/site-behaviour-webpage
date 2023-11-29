@@ -12,7 +12,7 @@ export default function About() {
          <div>    
 
                <Head>
-                    <title>AboutUs | SiteBehaviour : Website Analytics Tool  </title>
+                    <title>About Us | SiteBehaviour : Website Analytics Tool  </title>
                     <meta name="description" content="Get to know about our journey and experiences while creating sitebehaviour." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>

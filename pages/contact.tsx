@@ -13,7 +13,7 @@ export default function Contact() {
          <div>    
     
                <Head>
-                    <title>ContactUs | SiteBehaviour : Website Analytics Tool  </title>
+                    <title>Contact Us | SiteBehaviour : Website Analytics Tool  </title>
                     <meta name="description" content="Feel free to contact us for any queries with out 24/7 customer support assistance." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
