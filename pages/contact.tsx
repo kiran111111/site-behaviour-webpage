@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar"
 import Title from "../components/about/title"
 import ContactForm from "../components/contact/contact-form"
+import ContentDesc from "../components/contact/contact-desc"
 import Story from "../components/about/story"
 import Stats from "../components/about/stats"
 import CTA2Section from "../components/home /cta2"
@@ -25,6 +26,8 @@ export default function Contact() {
               <Navbar />
               <Title title={"Contact"} />
               <ContactForm />
+              <ContentDesc />
+              <CTA2Section />
               <Footer />
          </div>
      )
