@@ -15,8 +15,8 @@ export default function Document() {
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://sitebehaviour.com/" />
-        <meta property="twitter:title" content="Your Page Title"/>
-        <meta property="twitter:description" content="Your page description"/>
+        <meta property="twitter:title" content="SiteBehaviour : Website Analytics Tool"/>
+        <meta property="twitter:description" content="Gain valuable insights into your website's performance. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence."/>
         <meta property="twitter:image" content="/assets/hero-icon.png"/>
 
       </Head>
