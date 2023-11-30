@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
  
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
          {/* <title>SiteBehaviour : Website Analytics Tool </title>
          <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />

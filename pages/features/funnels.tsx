@@ -23,11 +23,11 @@ export default function Funnels() {
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />
                     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-               </Head> 
+                </Head> 
     
-               <Navbar />
+                <Navbar />
 
-               <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
+                <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
 
                     <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                         <div data-aos="fade-up" data-aos-duration="700">
