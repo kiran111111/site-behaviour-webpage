@@ -31,7 +31,7 @@ const features = [
   { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features/customevents', icon: '/solution/allfeaturesicons/click.svg'  },
   { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features/customcharts', icon: '/solution/allfeaturesicons/stats.svg' },
   { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features/geographicaldetails', icon: '/solution/allfeaturesicons/map.svg'  },
-  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/realtimestats', icon: '/solution/allfeaturesicons/time.svg' },
+  { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/real-time-statistics', icon: '/solution/allfeaturesicons/time.svg' },
  
 ]
 

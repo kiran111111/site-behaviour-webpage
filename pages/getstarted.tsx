@@ -82,6 +82,13 @@ export default function GetStarted() {
                                     </div>
 
                             </div>
+
+
+
+
+                           
+
+
                         </div>
                     </div>
                 </div>
@@ -97,6 +104,7 @@ export default function GetStarted() {
                                 Be the First to Know and Get Exclusive Access
                                 </p>
                            </div>
+
 
                            {submitted ? 
                                     <div className="text-black bg-green-300 rounded-md p-5 text-lg font-custommedium text-center">

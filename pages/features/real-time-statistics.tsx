@@ -15,7 +15,7 @@ export default function RealTimeStats() {
 
 
                <Head>
-                    <title> Real-Time Statistics | SiteBehaviour: Timely Decisions|Monitoring </title>
+                    <title> Real-Time-Statistics | SiteBehaviour: Timely Decisions|Monitoring </title>
                     <meta name="description" content="Harness the power of real-time analytics for proactive content optimization, responsive strategy adjustments, and swift issue resolution. Keep your digital presence agile, informed, and finely tuned to meet the ever-evolving expectations of your audience.." />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>

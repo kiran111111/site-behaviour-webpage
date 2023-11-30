@@ -15,7 +15,7 @@ export default function CustomCharts() {
 
 
                 <Head>
-                    <title> Custom Charts | SiteBehaviour: Tailored Visualization | Analysis</title>
+                    <title> CustomCharts | SiteBehaviour: Tailored Visualization | Analysis</title>
                     <meta name="description" content="Elevate your data-driven decision-making with our
                       analytics tool's custom charts feature. Tailor visualizations to your precise needs,
                       enabling targeted representation of key metrics and fostering a 

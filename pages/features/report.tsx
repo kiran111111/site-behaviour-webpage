@@ -16,7 +16,7 @@ export default function Report() {
 
 
               <Head>
-                    <title> Slack & Email Reports : SiteBehaviour | Real-time collaboration </title>
+                    <title> Slack & Email Report : SiteBehaviour | Real-time collaboration </title>
                     <meta name="description" content="Stay effortlessly informed with our analytics tool's Slack 
                     integration and simplify your routine with scheduled email reports, 
                     offering concise summaries and visualized data for
