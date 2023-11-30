@@ -34,7 +34,7 @@ export default function CustomCharts() {
 
                     <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                          <div data-aos="fade-up" data-aos-duration="700">
-                              <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
+                              <h1 data-tilt  className="leading-[120%] text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
                                    Custom Charts
                               </h1>
                               <p className="text-md text-zinc-300 md:text-lg pb-8" >

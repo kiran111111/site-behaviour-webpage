@@ -7,8 +7,8 @@ export default function TopFeaturesSection(){
         <div className="bg-white">
             <div className="mx-auto bg-white max-w-7xl  px-4 sm:px-6 lg:px-4 md:py-24 py-14">
                 <p data-aos="fade-up" data-aos-duration="600" className="font-custombold text-center text-sky-700 pb-4">TOP FEATURES 🔥 </p>
-                <h2 data-aos="fade-up" data-aos-duration="600" style={{lineHeight:'120%'}} 
-                  className=" text-black font-customsemibold md:text-5xl text-2xl text-center pb-14 leading-0"> Unlocking Our Analytics <br></br> Toolbox. </h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" 
+                  className=" text-black font-customsemibold md:text-5xl text-2xl text-center pb-14 leading-[120%]"> Unlocking Our Analytics <br></br> Toolbox. </h2>
                 <div data-aos="fade-up" data-aos-duration="700" className="grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 gap-10">
                 
                     <div className="tex†-center md:text-left">

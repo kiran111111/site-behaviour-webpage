@@ -52,7 +52,7 @@ export default function GetStarted() {
 
                             <img className="w-52 mx-auto lg:pt-24 pt-8" src="/assets/hero.png" />
                     
-                            <h1 data-tilt style={{lineHeight : '120%'}} className=" pt-4 text-white font-customsemibold 
+                            <h1 data-tilt  className="leading-[120%] pt-4 text-white font-customsemibold 
                                lg:text-5xl md:text-4xl text-3xl pb-6">
                                 Easy. Flexible.
                                 <br></br>Analytics for 

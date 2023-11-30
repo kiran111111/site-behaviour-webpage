@@ -48,7 +48,6 @@ export default function Footer() {
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">
               <p className="mr-1 text-white">Phone:</p>
               <a
-                href="tel:4372391838"
                 aria-label="Our phone"
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
