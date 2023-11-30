@@ -29,9 +29,9 @@ export default function Heatmap() {
               <Navbar />
               
 
-              <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-28 pb-40 pt-28">
+              <div style={{backgroundPosition : '100%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-32 py-28 pb-20 pt-28">
 
-                    <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
+                    <div className="max-w-7xl mx-auto grid items-center  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                          <div data-aos="fade-up" data-aos-duration="700">
                               <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">
                                    Session Recordings
@@ -40,6 +40,13 @@ export default function Heatmap() {
                                  Examine recorded visitor interactions on your website to gain a  detailed understanding of their online journey, 
                                   Analyzing these details and  make informed optimizations, 
                                   improving overall user experience and engagement.
+                              </p>
+
+
+                              <p className="text-md text-zinc-300 md:text-lg pb-8" >
+                                   Watch your website come to life with our powerful Session Recordings feature. 
+                                   Gain unparalleled insights into user behavior by visualizing their 
+                                   interactions with your site in real-time.
                               </p>
                               <button className="bg-green-400 p-3 px-5 text-black rounded-md text-xl font-customsemibold">Get Early Access</button>
                          </div>
@@ -110,8 +117,9 @@ export default function Heatmap() {
                                 User Experience Analysis
                             </h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
-                                Session recordings offer a detailed view of how users interact with your website, 
-                                allowing you to analyze their experience in real-time. 
+                                See exactly how visitors engage with your website in real-time. Session recordings provide
+                                 a visual playback of user sessions,
+                                 allowing you to witness clicks, scrolls, and interactions with forms and buttons.
                             </p>
                         </div>     
                     </div>
@@ -149,7 +157,9 @@ export default function Heatmap() {
                             </div>
                             <h6 style={{lineHeight : '1.6'}}  className="mb-3 font-customsemibold text-xl leading-5">Content and Feature Optimization</h6>
                             <p style={{lineHeight : '1.6'}} className="mb-3 text-md  text-gray-300">
-                            Session recordings assist in evaluating the effectiveness of specific content and features on your website.
+                            Session recordings assist in evaluating the effectiveness of specific content and 
+                            features on your website. Understand where users pause, scroll, or hesitate, providing valuable insights
+                             into content effectiveness.Use this information to emphasize key messages, calls-to-action, or important information.
                             </p>
                         </div>         
                     </div>
