@@ -10,6 +10,15 @@ export default function Document() {
          <meta char-set="UTF-8"></meta>
          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
          <link rel="apple-touch-icon" href="/assets/favicon.png" />
+         <link rel="icon" href="/assets/favicon.png" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sitebehaviour.com/" />
+        <meta property="twitter:title" content="Your Page Title"/>
+        <meta property="twitter:description" content="Your page description"/>
+        <meta property="twitter:image" content="/assets/hero-icon.png"/>
+
       </Head>
       <body> 
         <Main />
