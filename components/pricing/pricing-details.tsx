@@ -37,7 +37,7 @@ export default function PricingDetails() {
                      We guarantee the best service for best price!
                   </h2>
                </div>
-               <h1 data-aos="fade-up" style={{lineHeight : '1.2'}} className="max-w-2xl mb-8 font-custombold text-4xl font-bold leading-none tracking-tight text-white sm:text-6xl mx-auto">
+               <h1 data-aos="fade-up"  className="leading-[1.2] max-w-2xl mb-8 font-custombold text-4xl font-bold  tracking-tight text-white sm:text-6xl mx-auto">
                   Best Web Analytics,<br></br>for the Best Price.
                </h1>
                
@@ -109,8 +109,8 @@ export default function PricingDetails() {
                   "" : */}
                      <a
                         href="/getstarted"
-                        style={{borderWidth : '1px'}}
-                        className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-black hover:border-white hover:text-white  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
+                    
+                        className="inline-flex items-center b1 justify-center bg-green-400  border-green-400  hover:bg-black hover:border-white hover:text-white  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
                      >
                         Get Started 
                      </a>
@@ -187,8 +187,8 @@ export default function PricingDetails() {
 
                         <a
                            href="/getstarted"
-                           style={{borderWidth : '1px'}}
-                           className="inline-flex mt-3  items-center justify-center bg-green-400  border-green-400 hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
+                       
+                           className="inline-flex mt-3 b1  items-center justify-center bg-green-400  border-green-400 hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
                         >
                            Get Started 
                         </a>
@@ -291,8 +291,8 @@ export default function PricingDetails() {
                   <div className='mt-4'>
                   <a
                      href="/getstarted"
-                     style={{borderWidth : '1px'}}
-                     className="inline-flex items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
+                   
+                     className="inline-flex b1 items-center justify-center bg-green-400  border-green-400  hover:bg-white hover:border-white hover:text-black  w-full h-12 px-6  font-customsemibold tracking-wide text-black transition duration-200 rounded   focus:shadow-outline focus:outline-none"
                   >
                      Get Started 
                   </a>

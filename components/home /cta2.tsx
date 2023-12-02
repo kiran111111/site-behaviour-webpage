@@ -26,8 +26,8 @@ export default function CTA2Section() {
                     </a>
                     <a
                         href="/features/heatmap"
-                        style={{borderWidth : '1px'}}
-                        className="inline-flex mx-auto items-center  mb-4 justify-center h-12 px-6  font-medium tracking-wide text-white transition duration-200 rounded shadow-md border-white hover:bg-white hover:text-black focus:shadow-outline focus:outline-none"
+                        
+                        className="inline-flex mx-auto items-center b2  mb-4 justify-center h-12 px-6  font-medium tracking-wide text-white transition duration-200 rounded shadow-md border-white hover:bg-white hover:text-black focus:shadow-outline focus:outline-none"
                     >
                         Learn more
                     </a>

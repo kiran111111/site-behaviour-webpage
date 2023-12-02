@@ -112,6 +112,22 @@ blockquote p {
 
 
 
+/* border width 2px */
+.b2{
+  border-width: 2px;
+}
+
+.b1{
+  border-width: 1px;
+}
+
+.lh16{
+  line-height: 1.6;
+}
+
+.lh120{
+  line-height: 120%;
+}
 
 
 /* -----banner-blur-shape-1 */

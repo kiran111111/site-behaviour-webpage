@@ -48,7 +48,6 @@ export default function Footer() {
             <div data-aos="fade-up" data-aos-duration="700" className="flex md:justify-end justify-start">
               <p className="mr-1 text-white">Phone:</p>
               <a
-                href="tel:4372391838"
                 aria-label="Our phone"
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
@@ -91,7 +90,7 @@ export default function Footer() {
           <ul  className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
-                href="/home"
+                href="/"
                 className=" text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 Home

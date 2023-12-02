@@ -132,11 +132,11 @@ export default function AllFeaturesSection(){
 
 
                         <div  onClick={()=>setFeature('JourneyMap')} 
-                              style={{borderWidth : '2px '}} 
+                             
                               className={feature === 'JourneyMap' ?  
-                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                    `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                 :
-                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                     `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                                     }
                                 >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -147,11 +147,11 @@ export default function AllFeaturesSection(){
                          </div>
 
                          <div  onClick={()=>setFeature('CustomEvents')} 
-                              style={{borderWidth : '2px '}} 
+                            
                               className={feature === 'CustomEvents' ?  
-                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                    `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                 :
-                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                     `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                                     }
                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -163,11 +163,11 @@ export default function AllFeaturesSection(){
 
 
                          <div  onClick={()=>setFeature('MobileApp')} 
-                              style={{borderWidth : '2px '}} 
+                            
                               className={feature === 'MobileApp' ?  
-                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                              `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                               :
-                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                               `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                               }
                               >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -179,11 +179,11 @@ export default function AllFeaturesSection(){
 
 
                          <div  onClick={()=>setFeature('TrafficSource')} 
-                              style={{borderWidth : '2px '}} 
+                           
                               className={feature === 'TrafficSource' ?  
-                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                    `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                 :
-                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                     `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                                     }
                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -195,11 +195,11 @@ export default function AllFeaturesSection(){
 
 
                          <div  onClick={()=>setFeature('RealTimeStats')} 
-                              style={{borderWidth : '2px '}} 
+                     
                               className={feature === 'RealTimeStats' ?  
-                                    `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                                    `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                 :
-                                     `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                                     `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                                     }
                               >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -211,11 +211,11 @@ export default function AllFeaturesSection(){
 
 
                          <div  onClick={()=>setFeature('FlexibleFilters')} 
-                              style={{borderWidth : '2px '}} 
+                          
                               className={feature === 'FlexibleFilters' ?  
-                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                              `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                :
-                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                               `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                               }
                               >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}
@@ -227,11 +227,11 @@ export default function AllFeaturesSection(){
 
 
                          <div  onClick={()=>setFeature('Report')} 
-                              style={{borderWidth : '2px '}} 
+                        
                               className={feature === 'Report' ?  
-                              `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
+                              `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-green-500  text-center pt-6 pb-4`  
                                  :
-                               `bg-[#1c1c1c] cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
+                               `bg-[#1c1c1c] b2 cursor-pointer  rounded-lg  border-zinc-700  text-center pt-6 pb-4`  
                               }
                              >
                                 <Tilt scale={1.2} transitionSpeed={2500} tiltMaxAngleX={40}

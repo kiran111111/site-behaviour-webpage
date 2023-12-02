@@ -4,11 +4,11 @@ export default function HeroSection(){
 
     return(
 
-        <div style={{backgroundPosition : '50%'}} className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-top bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-20 pt-28">
+        <div  className="mx-auto  bg-[url('/assets/navbar/hero-background.png')]  bg-cover bg-[50%] bg-no-repeat px-4 sm:px-6 lg:px-2 md:pt-44 py-20 pt-28">
 
              <div className="max-w-7xl mx-auto grid  grid-cols-1 text-center lg:grid-cols-2 lg:text-left gap-4 p-5  px-4">
                 <div>
-                     <h1 data-tilt style={{lineHeight : '120%'}} className="text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">Easy. Flexible.
+                     <h1 data-tilt  className="leading-[120%] text-white font-customsemibold lg:text-[78px] md:text-6xl text-4xl pb-6">Easy. Flexible.
                          <br></br>
                          Analytics for <br></br>
                           Web | SAAS</h1>
