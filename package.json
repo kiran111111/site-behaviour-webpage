@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
-    "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "fs": "^0.0.1-security",
     "next": "14.0.1",
@@ -20,7 +19,6 @@
     "react-icons": "^4.11.0",
     "react-parallax-tilt": "^1.7.173",
     "tilt.js": "^1.2.1",
-    "xmlbuilder": "^15.1.1",
     "xmlbuilder2": "^3.1.1"
   },
   "devDependencies": {

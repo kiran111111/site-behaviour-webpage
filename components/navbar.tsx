@@ -78,7 +78,7 @@ export default function Navbar() {
 
  
 
-      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[90%] xl:w-[65%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
+      <Disclosure as="nav" className={`backdrop-blur-lg ${scrolled ? 'bg-[rgba(31,32,35,.8)]' : 'bg-black'}  fixed top-5 lg:left-[50%] lg:w-[90%] xl:w-[70%] w-[96%] left-[2%] lg:transform lg:translate-x-[-50%]  items-center  z-50 rounded-[30px]`}>
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-0 sm:px-2 lg:px-2 ">
@@ -272,6 +272,20 @@ export default function Navbar() {
                           aria-current={'contact' ? 'page' : undefined}
                         >
                           Contact
+                      </Link>
+
+
+                      <Link
+                          key={'blog'}
+                          href={'/blogs'}
+                          onClick={() => handleItemClick('blog')}
+                          className={classNames(
+                            router.pathname === '/blog' ? 'text-white bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                            'rounded-full  px-4 py-1 mt-1  font-customregular lg:text-base  text-sm '
+                          )}
+                          aria-current={'blog' ? 'page' : undefined}
+                        >
+                          Blog
                       </Link>
 
                     </div>

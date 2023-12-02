@@ -76,7 +76,7 @@
 
 body {
   /* font-family:  'Inter', sans-serif; */
-  background:  #090909;
+  background:  #000000 ;
   color : white;
 }
 
@@ -85,6 +85,29 @@ body {
 input:checked ~ .dot {
   transform: translateX(100%);
   background-color: #48bb78;
+}
+
+
+/* block quote */
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0px;
+  padding: 0.5em 10px;
+  font-style: italic ;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 
