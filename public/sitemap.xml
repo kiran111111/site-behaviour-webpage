@@ -31,23 +31,28 @@
     <loc>https://sitebehaviour.com/features/funnels</loc>
   </url>
    <url>
-    <loc>https://sitebehaviour.com/features/userjourney</loc>
+    <loc>https://sitebehaviour.com/features/user-journey-map</loc>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/report</loc>
   </url>
    <url>
-    <loc>https://sitebehaviour.com/features/customevents</loc>
+    <loc>https://sitebehaviour.com/features/custom-events</loc>
   </url>
    <url>
-    <loc>https://sitebehaviour.com/features/customcharts</loc>
+    <loc>https://sitebehaviour.com/features/custom-charts</loc>
   </url>
    <url>
-    <loc>https://sitebehaviour.com/features/geographicaldetails</loc>
+    <loc>https://sitebehaviour.com/features/geographical-details</loc>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/real-time-statistics</loc>
   </url>
-
+  <url>
+    <loc>https://sitebehaviour.com/blogs</loc>
+  </url>
+  <url>
+    <loc>https://sitebehaviour.com/blogs/web-analytics-from-2030</loc>
+  </url>
   
 </urlset>

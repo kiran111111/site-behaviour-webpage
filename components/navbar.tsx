@@ -27,11 +27,11 @@ const features = [
   { name: 'Heatmap',value:'heatmap' , description: 'Visualize user engagement with click , scroll and mouse-move heatmaps.', href: '/features/heatmap', icon: '/solution/allfeaturesicons/fire.svg' },
   { name: 'Session Recordings',value:'recordings' , description: "Unlock the power of insight with session recordings.", href: '/features/recordings', icon: '/assets/play.svg'  },
   { name: 'Flexible Funnels',value:'funnels' , description: "Optimize your conversions with custom funnels.", href: '/features/funnels', icon: '/solution/allfeaturesicons/sales-funnel.svg' },
-  { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/userjourney', icon: '/solution/allfeaturesicons/journey.svg'  },
+  { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/user-journey-map', icon: '/solution/allfeaturesicons/journey.svg'  },
   { name: 'Slack & Email report',value:'features' , description: 'Stay informed and in control with our concise email & Slack reports.', href: '/features/report', icon: '/solution/allfeaturesicons/arroba.svg' },
-  { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features/customevents', icon: '/solution/allfeaturesicons/click.svg'  },
-  { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features/customcharts', icon: '/solution/allfeaturesicons/stats.svg' },
-  { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features/geographicaldetails', icon: '/solution/allfeaturesicons/map.svg'  },
+  { name: 'Custom Events',value:'features' , description: "Tailor your analytics with custom events that matter to you", href: '/features/custom-events', icon: '/solution/allfeaturesicons/click.svg'  },
+  { name: 'Custom Charts',value:'features' , description: "Data-Driven visualizations that tell your unique story with our custom charts.", href: '/features/custom-charts', icon: '/solution/allfeaturesicons/stats.svg' },
+  { name: 'Geographical details',value:'features' , description: 'See your web traffics country origin and from where they found your link', href: '/features/geographical-details', icon: '/solution/allfeaturesicons/map.svg'  },
   { name: 'Real time stats',value:'features' , description: 'See in the real-time how visitors are on your website along with the web page they are visiting', href: '/features/real-time-statistics', icon: '/solution/allfeaturesicons/time.svg' },
  
 ]
