@@ -16,6 +16,9 @@ export default function Document() {
         <meta property="og:locale" content="en_US"></meta>
         <meta property="og:locale:alternate" content="fr_FR" ></meta>
 
+        <meta property="og:title" content="SiteBehaviour | Discover heatmaps, session recordings, funnels, and filters to optimize your online presence | Web analytics." />
+	      <meta property="og:url" content="https://sitebehaviour.com/" />
+
         {/* <!-- Site Name --> */}
         <meta property="og:site_name" content="SiteBehaviour"></meta>
 
@@ -23,7 +26,7 @@ export default function Document() {
 
          <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
          <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
-         
+
          <meta property="og:image" content="/assets/hero.png" />
          <meta property="og:image:width" content="758" />
          <meta property="og:image:height" content="335" />
