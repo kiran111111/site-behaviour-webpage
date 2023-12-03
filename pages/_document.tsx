@@ -23,6 +23,12 @@ export default function Document() {
          <meta property="og:image:width" content="758" />
          <meta property="og:image:height" content="335" />
 
+
+         <meta property="article:author" content="Kiran Kaur" ></meta>
+
+         <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
+         <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
+
         {/* <!-- Twitter --> */}
         {/* <meta property="twitter:card" content="summary_large_image"></meta>
         <meta property="twitter:url" content="https://sitebehaviour.com/" ></meta>
