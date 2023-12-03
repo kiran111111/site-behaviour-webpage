@@ -22,6 +22,12 @@ export default function Home() {
           <meta char-set="UTF-8"></meta>
           <link rel="icon" href="/assets/favicon.png" />
           <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+          <meta property="article:author" content="Kiran Kaur" ></meta>
+
+            <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
+            <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
        </Head> 
     
               <Navbar />
