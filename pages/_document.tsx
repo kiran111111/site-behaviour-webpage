@@ -19,15 +19,14 @@ export default function Document() {
         {/* <!-- Site Name --> */}
         <meta property="og:site_name" content="SiteBehaviour"></meta>
 
-        <meta property="og:image" content="https://qualaroo.com/blog/wp-content/uploads/2016/12/The-Ultimate-Guide-to-SEO-for-UX-Designers.jpg" />
-         <meta property="og:image:width" content="758" />
-         <meta property="og:image:height" content="335" />
-
-
          <meta property="article:author" content="Kiran Kaur" ></meta>
 
          <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
          <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
+         
+         <meta property="og:image" content="/assets/hero.png" />
+         <meta property="og:image:width" content="758" />
+         <meta property="og:image:height" content="335" />
 
         {/* <!-- Twitter --> */}
         {/* <meta property="twitter:card" content="summary_large_image"></meta>
