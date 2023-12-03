@@ -197,6 +197,8 @@ export default function Blogs() {
                              <p className="text-gray-700">Written by <span className="text-indigo-600 font-customsemibold">Kiran Kaur</span></p>
 
 
+                             <a href="/blogs" className="inline-block text-indigo-600 font-semibold text-md mt-4 hover:bg-indigo-100 transition-colors p-2 rounded-md">	&#8592; Check other Blogs</a>  
+
                     </article>
                </div>
     
