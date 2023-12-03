@@ -6,17 +6,17 @@ export default function BlogList(){
         <section className="bg-white pt-28 dark:bg-black">
             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                 <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                    <h2 className="mb-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Blog</h2>
+                    <h2 className="mb-4 text-3xl md:text-5xl tracking-tight font-bold text-gray-900 dark:text-white">Our Blog</h2>
                     <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
                         Read about our journey and milestones along the way.</p>
                 </div> 
                 <div className="grid gap-8 lg:grid-cols-1 max-w-4xl mx-auto">
-                    <article className="p-6 grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <article className="p-6 grid md:grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                        
-                        <div className=" mr-6">
+                        <div className=" md:mr-6 md:mb-0 mb-6">
                              <img className="h-full rounded-lg " src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         </div>
-                        <div className="col-span-2">
+                        <div className="md:col-span-2">
 
                                 <div className="flex justify-between items-center mb-5 text-gray-400">
                                     <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-zinc-200 dark:text-zinc-800">
