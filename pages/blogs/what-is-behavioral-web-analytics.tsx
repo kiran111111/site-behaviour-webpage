@@ -12,12 +12,12 @@ export default function Blogs() {
          <div>    
 
           <Head>
-            <title>Web Analytics From 2030 | SiteBehaviour : Blogs</title>
+            <title>Web Analytics | SiteBehaviour | Blogs |   </title>
             <meta name="description" content="
-              we decided to create a solution that's not only user-friendly but also 
-              equipped  with essential tools like screen recording, heatmaps, and funnels.
-              These tools tell a more detailed story about users and contribute to the 
-               overall success of your business
+              What is web analytics ? Think of web analytics as your website's own detective. 
+              It's like having someone keep an eye on your website and telling you
+               everything about the people who visit - where they come from, what they
+                like, and what they do.
             ." />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <meta char-set="UTF-8"></meta>
@@ -35,7 +35,7 @@ export default function Blogs() {
                <div className=" bg-white">
                     <article className="max-w-3xl px-6 py-24 pt-2 md:pt-16 mx-auto space-y-16 dark:bg-white dark:text-black">
                             <div className="w-full mx-auto space-y-4">
-                                <h1 className="lg:text-6xl text-3xl font-bold ">Web Analytics from 2030</h1>
+                                <h1 className="lg:text-6xl text-3xl font-bold ">What is Web Analytics ?</h1>
                                 <div className="flex flex-wrap space-x-1 text-sm dark:text-gray-700">
                                     <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#WebAnalytics</a>
                                     <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#UserBehaviour</a>
@@ -44,7 +44,7 @@ export default function Blogs() {
                                 <p className="text-sm  dark:text-gray-600">by
                                     <a href="#" target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-violet-700">
                                         <span className="font-customsemibold"> Kiran Kaur</span>
-                                    </a> on Dec 3 , 2023
+                                    </a> on Dec 3, 2023
                                     {/* <time datetime="2021-02-12 15:34:18-0200">Feb 12th 2021</time> */}
                                 </p>
                             </div>
@@ -53,105 +53,74 @@ export default function Blogs() {
                             </div>
                             <div className="dark:text-gray-800 ">
                                 <p>
-                                    A while back, we were hunting for a tool to amp up our SaaS game. We needed the 
-                                    lowdown on our website's conversion rate, how folks were cruising through our site,
-                                     and what they thought about the latest features in our SaaS gig.
+                                    Think of web analytics as your website's own detective. It's like
+                                     having someone keep an eye on your website and telling you everything
+                                      about the people who visit - where they come from, what they like,
+                                       and what they do.
                                 </p>
-                                <h2 className="my-2 mt-8 font-bold text-2xl">Our Motivation</h2>
+                                <h2 className="my-2 mt-8 font-bold text-2xl">Why is it needed ?</h2>
                                 <p className="mt-3">
-                                    Turns out, every analytics tool in the market excels in its own way. Take Google Analytics,
-                                     Mixpanel, and Heap Analytics – they've got their strengths. But here's the kicker: 
-                                     what we really wanted was a tool that's straightforward, adaptable, and, most importantly,
-                                      a mix of web analytics, behavioral analytics, event analytics, and product analytics.
+                                   Imagine you have a shop, and you want to know which products are
+                                    popular and where your customers are coming from. Web analytics does 
+                                    the same for your website. It tells you which pages people like, 
+                                    how long they stay, and how they find your site.
                                 </p>
                                 <p className="mt-3">
-                                    That's why we decided to create a solution that's not only user-friendly but also 
-                                    equipped  with essential tools like screen recording, heatmaps, and funnels.
-                                    These tools tell a more detailed story about users and contribute to the 
-                                     overall success of your business.
+                                    Web analytics can help you to keep your customers, draw in
+                                     additional visitors, and boost the amount of money each customer invests.
                                 </p>
+                               
 
-                                <h2 className="my-2 mt-8 font-bold text-2xl">Introducing Site Behaviour </h2>
-                                <p className="mt-3  ">
-                                    Here's a sneak peek at why it's not just another tool but your secret weapon for digital supremacy :
-                                </p>
-                                <h3 className="mt-6 text-lg font-semibold">Screen Recording</h3>
-                                <p className="mt-3">
-                                   Watch how visitors move around your website and see their journey unfold with simple screen recordings.
-                                   
-                                </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>See exactly what visitors do on your website through video-like screen recordings.
+
+                                <h2 className="my-2 mt-8 font-bold text-2xl">How can it help you ? </h2>
+                               
+                                <ol  className="mt-4  list-decimal ml-6 leading-[1.7]">
+                                    <li className="mb-3"> <strong>Visitor Count: </strong> 
+                                       It shows how many people come to your site in real-time and from which sources.
+                                        Is it just a few, a lot.
                                     </li>
-                                    <li>Gain a clear understanding of how visitors navigate and interact with your site.
+                                    <li className="mb-3"> <strong>Popular Pages: </strong> 
+                                       Web analytics tells you which pages on your site get the most attention. Which pages 
+                                       the audience is visiting the most.
                                     </li>
-                                    <li>Identify popular areas where users click, scroll, and spend more time, like having a map of user interest.
+                                    <li className="mb-3">
+                                       <strong>Screen Recordings: </strong> 
+                                       See recording of visitors interactions within your website to get more insights
+                                        on visitor's journey
                                     </li>
-                                    <li>Quickly pinpoint any issues or roadblocks users might encounter during their visit.</li>
+                                    <li className="mb-3">
+                                        <strong>Multiple Heatmaps: </strong>
+                                        Identify on which parts of the page, the users are spending the most time . You can use
+                                        Click, Scroll and mouse movement Heatmaps to visualize the engagement
+                                    </li>
+                                    <li className="mb-3"> <strong>Device Details: </strong> 
+                                        Know which device your users are using to access your website . Which Browsers, device type and 
+                                        from which location are they engaging .
+                                    </li>
+                                    <li className="mb-3"> <strong>User Journey Maps: </strong> 
+                                        Know which device your users are using to access your website . Which Browsers, device type and 
+                                        from which location are they engaging .
+                                    </li>
+                                    
                                 </ol>
+
+
+                                <p className="mt-8">
+                                Web analytics helps businesses sell more by figuring out what products customers
+                                 might want to buy. It also helps know which products a particular customer is 
+                                 likely to get. This way, businesses can make more money compared to what
+                                  they spend on marketing.
+                                </p>    
+                                <p className="mt-3">
+                                    Web analytics also looks at how customers move around a website,
+                                    where they come from, and checks what they do online. The information is 
+                                    shown using tables, charts, and graphs. This helps businesses understand and improve how they sell things on the internet.
+                                </p>
 
                              
-                                <h3 className="mt-6 text-lg font-semibold">Multiple Heatmaps</h3>
-                                <p className="mt-3">
-                                    Record and study how visitors move on your website. Uncover valuable insights to improve your understanding of their online journey and enhance their overall user experience.
-                                </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>Visualize where visitors click the most on your website, highlighting the hotspots
-                                        of user engagement.</li>
-                                    <li>Track how far visitors scroll down each page, revealing the areas that capture the 
-                                        most attention and those that may be overlooked.
-                                    </li>
-                                    <li>Understand the movement patterns of the mouse cursor across your site, providing insights
-                                         into user focus and areas of interest.
-                                    </li>
                                
-                                </ol>
 
-                                <h3 className="mt-6 text-lg font-semibold">Flexible Funnels</h3>
-                                <p className="mt-3">
-                                   Evaluate the conversion rates of your website and identify the specific stage where visitors
-                                    are disengaging, utilizing adaptable funnels for a more dynamic analysis.
-                                </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>Create your unique journey for users, tailoring the steps in the funnel to match your website's flow.
-                                    </li>
-                                    <li>Adjust and tweak your funnel at any time, ensuring it fits your evolving goals without any hassle.
-                                    </li>
-                                    <li>Pinpoint exactly where users exit the funnel, so you can focus on improving those specific areas..
-                                    </li>
-                                </ol>
-
-
-                                <h3 className="mt-6 text-lg font-semibold">User Journey</h3>
-                                <p className="mt-3">
-                                    Observe users' navigation paths on your website through graphic visuals, 
-                                    providing a clear depiction of their interactions and journey. 
-                                </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>Visualize how users move through your website one step at a time.
-                                    </li>
-                                    <li>Identify the favorite places users visit on your site, like popular stops on a journey.
-                                    </li>
-                                    <li>Use insights to enhance pathways, making it smoother for users to navigate
-                                         and find what they need.
-                                    </li>
-                                </ol>
-
-
-                                <h3 className="mt-6 text-lg font-semibold">Slack and Email Report</h3>
-                                <p className="mt-3">
-                                     Stay effortlessly informed with our analytics tool's Slack integration 
-                                     and simplify your routine with scheduled email reports, offering
-                                      concise summaries.
-                                 </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>Get reports in a simple format that's easy to read, whether it's on Slack or in your email.
-                                    </li>
-                                    <li>Stay informed without checking multiple places – all the updates come to you.
-                                    </li>                  
-                                </ol>
-
-                                <h3 className="mt-6 text-lg font-semibold">Custom Charts and Events</h3>
+                                {/* <h3 className="mt-6 text-lg font-semibold">Custom Charts and Events</h3>
                                 <ol  className="mt-4 list-disc ml-6">
                                     <li>Design charts that fit your needs, tailoring them to show the data you care about.
                                     </li>
@@ -159,21 +128,10 @@ export default function Blogs() {
                                          to define and track specific user interactions or actions that align 
                                          with their unique business objectives.
                                     </li>                  
-                                </ol>
+                                </ol> */}
 
 
-                                <h3 className="mt-6 text-lg font-semibold">Real Time Statistics</h3>
-                                <p className="mt-3">
-                                      Real-time stats offer instantaneous monitoring of key metrics, providing businesses
-                                       with immediate insights into user activities, website performance, and other 
-                                       critical data points.
-                                 </p>
-                                <ol  className="mt-4 list-disc ml-6">
-                                    <li>Immediate access to real-time stats enables proactive issue resolution.
-                                    </li>
-                                    <li>With real-time stats, businesses can make timely decisions based on the latest data. 
-                                    </li>                  
-                                </ol>
+                             
 
                                 {/* <blockquote >That's how our journey began !</blockquote> */}
                             </div>

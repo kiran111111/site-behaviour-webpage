@@ -68,9 +68,9 @@ export default function BlogList(){
                                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                    <a href="blogs/what-is-behavioral-web-analytics">What is Behavioural Web Analytics ?</a></h2>
                                <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
-                                   A while back, we were hunting for a tool to amp up our SaaS game. We needed the 
-                                           lowdown on our website's conversion rate, how folks were cruising through our site,
-                                           and what they thought about the latest features in our SaaS gig.
+                                  Think of web analytics as your website's own detective. It's like having someone keep
+                                   an eye on your website and telling you everything about the people who visit - 
+                                   where they come from, what they like, and what they do.
                                </p>
                                <div className="flex justify-between items-center">
                                    <div className="flex items-center space-x-4">
