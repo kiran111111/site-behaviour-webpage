@@ -17,7 +17,7 @@ export default function Index() {
 
        <Head>
           <title>SiteBehaviour :  Easy, Flexible analytics for Web and SASS </title>
-          <meta name="description" content="SiteBehaviour | Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+          <meta name="description" content="SiteBehaviour | Discover heatmaps, session recordings, funnels, and filters to optimize your online presence | Web analytics." />
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <meta char-set="UTF-8"></meta>
           <link rel="icon" href="/assets/favicon.png" />

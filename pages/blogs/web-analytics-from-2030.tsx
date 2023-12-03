@@ -12,8 +12,13 @@ export default function Blogs() {
          <div>    
 
           <Head>
-            <title>Web Analytics From 2030 | SiteBehaviour: Learn about your customers</title>
-            <meta name="description" content="Gain valuable insights into your website's performance. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
+            <title>Web Analytics From 2030 | SiteBehaviour : Blogs</title>
+            <meta name="description" content="
+              we decided to create a solution that's not only user-friendly but also 
+              equipped  with essential tools like screen recording, heatmaps, and funnels.
+              These tools tell a more detailed story about users and contribute to the 
+               overall success of your business
+            ." />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <meta char-set="UTF-8"></meta>
             <link rel="icon" href="/assets/favicon.png" />
