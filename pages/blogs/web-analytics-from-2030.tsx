@@ -35,13 +35,13 @@ export default function Blogs() {
                <div className=" bg-white">
                     <article className="max-w-3xl px-6 py-24 pt-2 md:pt-16 mx-auto space-y-16 dark:bg-white dark:text-black">
                             <div className="w-full mx-auto space-y-4">
-                                <h1 className="text-6xl font-bold ">Web Analytics from 2030</h1>
+                                <h1 className="lg:text-6xl text-3xl font-bold ">Web Analytics from 2030</h1>
                                 <div className="flex flex-wrap space-x-1 text-sm dark:text-gray-700">
-                                    <a rel="noopener noreferrer" href="#" className="p-1 hover:underline">#MambaUI</a>
-                                    <a rel="noopener noreferrer" href="#" className="p-1 hover:underline">#TailwindCSS</a>
-                                    <a rel="noopener noreferrer" href="#" className="p-1 hover:underline">#Angular</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#Analytics</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#UserBehaviour</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#Product</a>
                                 </div>
-                                <p className="text-sm dark:text-gray-600">by
+                                <p className="text-sm  dark:text-gray-600">by
                                     <a href="#" target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-violet-700">
                                         <span className="font-customsemibold"> Kiran Kaur</span>
                                     </a> on Dec 1 , 2023
@@ -49,7 +49,7 @@ export default function Blogs() {
                                 </p>
                             </div>
                             <div className="">
-                                <img src="/assets/home/dashboard.png" />
+                                <img className="rounded-md" src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             </div>
                             <div className="dark:text-gray-800 ">
                                 <p>

@@ -14,7 +14,7 @@ export default function BlogList(){
                     <article className="p-6 grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                        
                         <div className=" mr-6">
-                             <img className="h-full " src="/assets/home/topfeatures/top-feature-icon.png" />
+                             <img className="h-full rounded-lg " src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         </div>
                         <div className="col-span-2">
 
