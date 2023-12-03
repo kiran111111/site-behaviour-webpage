@@ -2,57 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sitebehaviour.com/</loc>
+     <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/about</loc>
+     <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/contact</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/pricing</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/home</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/getstarted</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/solutions</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/features/heatmap</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/features/recordings</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/features/funnels</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/user-journey-map</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/report</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/custom-events</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/custom-charts</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/geographical-details</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
    <url>
     <loc>https://sitebehaviour.com/features/real-time-statistics</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/blogs</loc>
+       <lastmod>2023-12-01</lastmod>
   </url>
   <url>
     <loc>https://sitebehaviour.com/blogs/web-analytics-from-2030</loc>
+       <lastmod>2023-12-01</lastmod>
+  </url>
+   <url>
+    <loc>https://sitebehaviour.com/blogs/what-is-behavioral-web-analytics</loc>
+       <lastmod>2023-12-03</lastmod>
   </url>
   
 </urlset>
