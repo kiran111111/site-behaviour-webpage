@@ -28,7 +28,7 @@ export default function Document() {
          <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
          <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
 
-         <meta property="og:image" content="/assets/hero.png" />
+         <meta property="og:image" content="https://images.unsplash.com/photo-1636633762833-5d1658f1e29b?q=80&w=2800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
          <meta property="og:image:width" content="758" />
          <meta property="og:image:height" content="335" />
 

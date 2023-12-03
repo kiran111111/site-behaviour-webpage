@@ -121,7 +121,7 @@ export default function Blogs() {
                                 <h3 className="mt-6 text-lg font-semibold">Flexible Funnels</h3>
                                 <p className="mt-3">
                                    Evaluate the conversion rates of your website and identify the specific stage where visitors
-                                    are disengaging, utilizing adaptable funnels for a more dynamic analysis.
+                                    are disengaging, utilizing adaptable funnels for  more dynamic analysis.
                                 </p>
                                 <ol  className="mt-4 list-disc ml-6">
                                     <li>Create your unique journey for users, tailoring the steps in the funnel to match your website's flow.
@@ -192,7 +192,7 @@ export default function Blogs() {
 
 
                             <p className="mt-8 text-gray-700">
-                                 These are all of our main feature which are coming soon......:)
+                                 These are all of our main features which are coming soon......:)
                              </p>
                              <p className="text-gray-700">Written by <span className="text-indigo-600 font-customsemibold">Kiran Kaur</span></p>
 
