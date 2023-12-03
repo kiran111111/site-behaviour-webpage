@@ -12,12 +12,21 @@ export default function Document() {
          <link rel="apple-touch-icon" href="/assets/favicon.png" />
          <link rel="icon" href="/assets/favicon.png" />
 
+         {/* <!-- Locale and Language Tags --> */}
+        <meta property="og:locale" content="en_US"></meta>
+        <meta property="og:locale:alternate" content="fr_FR" ></meta>
+
+        {/* <!-- Site Name --> */}
+        <meta property="og:site_name" content="SiteBehaviour"></meta>
+
         {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://sitebehaviour.com/" />
-        <meta property="twitter:title" content="SiteBehaviour : Website Analytics Tool"/>
-        <meta property="twitter:description" content="Gain valuable insights into your website's performance. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence."/>
-        <meta property="twitter:image" content="/assets/hero-icon.png"/>
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta property="twitter:url" content="https://sitebehaviour.com/" ></meta>
+        <meta property="twitter:title" content="SiteBehaviour : Website Analytics Tool" ></meta>
+        <meta property="twitter:description" content="Gain valuable insights into your website's performance. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." ></meta>
+        <meta property="twitter:image" content="/assets/hero-icon.png" ></meta>
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
       </Head>
       <body> 
