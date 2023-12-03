@@ -26,10 +26,6 @@ export default function Index() {
           <meta property="article:published_time" content="2023-12-01T08:27:00+00:00" ></meta>
           <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
 
-          <meta property="og:image" content="https://qualaroo.com/blog/wp-content/uploads/2016/12/The-Ultimate-Guide-to-SEO-for-UX-Designers.jpg" />
-         <meta property="og:image:width" content="758" />
-         <meta property="og:image:height" content="335" />
-
           <link rel="icon" href="/assets/favicon.png" />
           <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
