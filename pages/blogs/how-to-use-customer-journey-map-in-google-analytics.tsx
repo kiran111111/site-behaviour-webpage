@@ -43,7 +43,7 @@ export default function CustomerJourneyMap() {
 
               </div>
        
-               <div className=" bg-white">
+               <div className=" bg-white text-black">
                     <article className="max-w-3xl px-6 py-24 pt-2 md:pt-16 mx-auto space-y-16 dark:bg-white dark:text-black">
                             <div className="w-full mx-auto space-y-4">
                                 <h1 className="lg:text-6xl text-3xl font-bold ">
