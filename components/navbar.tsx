@@ -308,7 +308,7 @@ export default function Navbar() {
             </div>
 
             <Disclosure.Panel className="lg:hidden">
-              <div className="space-y-1 px-2 pb-3 pt-2 border-b-2 border-gray-600">
+              <div className=" space-y-1 px-2 pb-3 pt-2 border-b-2 border-gray-600">
                 {navigation.map((item) => (
                   <>
                   <Disclosure.Button
@@ -352,7 +352,7 @@ export default function Navbar() {
                       >
                         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
                           <div className="w-screen  flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4 grid sm:grid-cols-2">
+                            <div className="p-4 grid sm:grid-cols-2 max-h-[400px] overflow-y-scroll">
                               {features.map((item) => (
                                 <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                   <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
@@ -400,7 +400,7 @@ export default function Navbar() {
                       >
                         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
                           <div className="w-screen  flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-                            <div className="p-4 grid sm:grid-cols-2">
+                            <div className="p-4 grid sm:grid-cols-2 max-h-[400px] overflow-y-scroll">
                               {solutions.map((item) => (
                                 <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
                                   <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
