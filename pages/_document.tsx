@@ -9,20 +9,20 @@ export default function Document() {
          <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
         
          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
          <meta char-set="UTF-8"></meta>
          <link rel="apple-touch-icon" href="/assets/favicon.png" />
          <link rel="icon" href="/assets/favicon.png" />
 
          {/* <!-- Locale and Language Tags --> */}
-        <meta property="og:locale" content="en_US"></meta>
-        <meta property="og:locale:alternate" content="fr_FR" ></meta>
+          <meta property="og:locale" content="en_US"></meta>
+          <meta property="og:locale:alternate" content="fr_FR" ></meta>
 
-        <meta property="og:title" content="SiteBehaviour | Discover heatmaps, session recordings, funnels, and filters to optimize your online presence | Web analytics." />
-	      <meta property="og:url" content="https://sitebehaviour.com/" />
+          <meta property="og:title" content="SiteBehaviour | Discover heatmaps, session recordings, funnels, and filters to optimize your online presence | Web analytics." />
+          <meta property="og:url" content="https://sitebehaviour.com/" />
 
         {/* <!-- Site Name --> */}
-        <meta property="og:site_name" content="SiteBehaviour"></meta>
+         <meta property="og:site_name" content="SiteBehaviour"></meta>
 
          <meta property="article:author" content="Kiran Kaur" ></meta>
 
@@ -50,7 +50,7 @@ export default function Document() {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-D3MX5RY7CN');
-            `,
+            ` ,
           }}
         />
 

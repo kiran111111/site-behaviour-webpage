@@ -11,7 +11,7 @@ export default function BlogList(){
                         Read about our journey and milestones along the way.</p>
                 </div> 
                 <div className="grid gap-8 lg:grid-cols-1 max-w-4xl mx-auto">
-                    <article className="p-6 grid md:grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md ">
+                    <article className="p-6 grid md:grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
                        
                         <div className=" md:mr-6 md:mb-0 mb-6">
                              <img className="h-full rounded-lg max-h-64 " src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
@@ -19,13 +19,12 @@ export default function BlogList(){
                         <div className="md:col-span-2">
 
                                 <div className="flex justify-between items-center mb-5 text-gray-400">
-                                    <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded ">
-                                    
+                                    <span  className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-zinc-200 dark:text-zinc-800" >
                                         NEW
                                     </span>
                                     <span className="text-sm">Dec 1, 2023</span>
                                 </div>
-                                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     <a href="blogs/web-analytics-from-2030">Web Analytics from 2030</a></h2>
                                 <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
                                     A while back, we were hunting for a tool to amp up our SaaS game. We needed the 
@@ -50,7 +49,7 @@ export default function BlogList(){
                     </article> 
 
 
-                    <article className="p-6 grid md:grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md ">
+                    <article className="p-6 grid md:grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
                        
                        <div className=" md:mr-6 md:mb-0 mb-6">
                             <img className="h-full rounded-lg "
@@ -65,7 +64,7 @@ export default function BlogList(){
                                    </span>
                                    <span className="text-sm">Dec 3, 2023</span>
                                </div>
-                               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                    <a href="blogs/what-is-behavioral-web-analytics">What is Behavioural Web Analytics ?</a></h2>
                                <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
                                   Think of web analytics as your website's own detective. It's like having someone keep
