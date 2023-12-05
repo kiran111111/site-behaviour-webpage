@@ -1,5 +1,6 @@
+// @ts-nocheck
 import { Html, Head, Main, NextScript } from 'next/document'
- 
+
 export default function Document() {
   return (
     <Html lang="en">
@@ -41,17 +42,30 @@ export default function Document() {
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3MX5RY7CN"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-D3MX5RY7CN');
+            `,
+          }}
+        />
+
       </Head>
       <body> 
         <Main />
         <NextScript>
            
         </NextScript>
-        
+       
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
            AOS.init();
          </script>
+        
 
       </body>
     </Html>

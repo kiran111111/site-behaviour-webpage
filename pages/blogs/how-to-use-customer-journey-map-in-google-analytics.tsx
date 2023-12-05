@@ -46,28 +46,31 @@ export default function CustomerJourneyMap() {
                <div className=" bg-white">
                     <article className="max-w-3xl px-6 py-24 pt-2 md:pt-16 mx-auto space-y-16 dark:bg-white dark:text-black">
                             <div className="w-full mx-auto space-y-4">
-                                <h1 className="lg:text-6xl text-3xl font-bold ">Web Analytics from 2030</h1>
+                                <h1 className="lg:text-6xl text-3xl font-bold ">
+                                   How to use <br></br> Customer Journey Map  <br></br> in Google Analytics
+                                </h1>
                                 <div className="flex flex-wrap space-x-1 text-sm dark:text-gray-700">
-                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#Analytics</a>
-                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#UserBehaviour</a>
-                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#Product</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#GoogleAnalytics</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#CustomerJourneyMap</a>
+                                    <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#SiteBehaviour</a>
                                 </div>
                                 <p className="text-sm  dark:text-gray-600">by
-                                    <a href="#" target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-violet-700">
+                                    <a href="# " target="_blank" rel="noopener noreferrer" className="hover:underline dark:text-violet-700">
                                         <span className="font-customsemibold"> Kiran Kaur</span>
                                     </a> on Dec 1 , 2023
                                     {/* <time datetime="2021-02-12 15:34:18-0200">Feb 12th 2021</time> */}
                                 </p>
                             </div>
                             <div className="">
-                                <img className="rounded-md shadow-lg" 
+                                <img className="rounded-md shadow-2xl " 
                                 src="/assets/blogs/customer-journey.png" />
                             </div>
                             <div className="dark:text-gray-800 ">
                                 <p>
-                                    A while back, we were hunting for a tool to amp up our SaaS game. We needed the 
-                                    lowdown on our website's conversion rate, how folks were cruising through our site,
-                                     and what they thought about the latest features in our SaaS gig.
+                                    User Journey Map is your dynamic guide, illustrating how users interact with 
+                                    your digital platforms. It's not just about data; it's a visual representation 
+                                    of the steps users take, the touchpoints they encounter throughout the website. 
+                                    It represents how many users go to certain pages .
                                 </p>
                                 <h2 className="my-2 mt-8 font-bold text-2xl">Our Motivation</h2>
                                 <p className="mt-3">
