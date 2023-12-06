@@ -27,7 +27,7 @@ export default function Index() {
           <meta property="article:modified_time" content="2023-12-01T08:27:00+00:00" ></meta>
 
           <link rel="icon" href="/assets/favicon.png" />
-          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+          
 
           
        </Head> 

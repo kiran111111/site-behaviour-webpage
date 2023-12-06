@@ -8,7 +8,7 @@ export default function Document() {
          {/* <title>SiteBehaviour : Website Analytics Tool </title>
          <meta name="description" content="Gain valuable insights into your website's performance with our powerful analytics software tool. Discover heatmaps, session recordings, funnels, and filters to optimize your online presence." />
         
-         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
+        
          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
          <meta char-set="UTF-8"></meta>
          <link rel="apple-touch-icon" href="/assets/favicon.png" />

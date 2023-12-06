@@ -57,7 +57,7 @@ export default function Blogs() {
                                 </p>
                             </div>
                             <div className="">
-                                <img className="rounded-md shadow-lg " src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                                <img className="rounded-md shadow-lg " alt="web analytics" src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             </div>
                             <div className="dark:text-gray-800 ">
                                 <p>
@@ -374,7 +374,7 @@ export default function Blogs() {
                              <p className="text-gray-700">Written by <span className="text-indigo-600 font-customsemibold">Kiran Kaur</span></p>
 
 
-                             <a href="/blogs" className="inline-block text-indigo-600 font-semibold text-md mt-4 hover:bg-indigo-100 transition-colors p-2 rounded-md">	&#8592; Check other Blogs</a>  
+                             <a href="/blogs" className="inline-block text-indigo-600 font-semibold text-md mt-4 hover:bg-indigo-100 transition-colors p-2 rounded-md">	&#8592; Check other Blog Posts</a>  
 
                     </article>
                </div>

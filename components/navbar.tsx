@@ -165,7 +165,7 @@ export default function Navbar() {
                             <div className="w-screen flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                               <div className="lg:p-4 p-2 grid grid-cols-3 ">
                                 {features.map((item) => (
-                                  <Link href={item.href}  onClick={() => handleItemClick(item.value)}>
+                                  <Link key={item.name} href={item.href}  onClick={() => handleItemClick(item.value)}>
                                     <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-100">
                                       <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-100 group-hover:bg-white">
                                         <img src={item.icon} className="h-7 w-7 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />

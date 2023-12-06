@@ -24,7 +24,7 @@ export default function Report() {
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     <meta char-set="UTF-8"></meta>
                     <link rel="icon" href="/assets/favicon.png" />
-                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                   
                </Head> 
     
               <Navbar />
