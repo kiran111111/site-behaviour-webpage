@@ -7,15 +7,17 @@ import Footer from "../../components/home /footer"
 import Head from 'next/head'
 
 
-export default function DecodingWebsiteHeatMaps() {
+export default function WebAnalyticsTools() {
     return (
          <div>    
 
           <Head>
-            <title>Decoding Website Heat Maps: Understanding Visitor Behavior for Improved Online Success |  Blogs</title>
+            <title> Top 10 Web Analytics Tools |  Blogs </title>
             <meta name="description" content="
-                Discover the future of web analytics in our latest blog. Stay ahead of the game with insights on web analytics from 2030.
-            ." />
+                Discover the future of web analytics in our latest blog. Stay ahead 
+                of the game with insights on web analytics from 2030.
+              ." 
+            />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <meta char-set="UTF-8"></meta>
 
@@ -43,7 +45,7 @@ export default function DecodingWebsiteHeatMaps() {
                <div className=" bg-white text-black">
                     <article className="max-w-3xl px-6 py-24 pt-2 md:pt-16 mx-auto space-y-16 dark:bg-white dark:text-black">
                             <div className="w-full mx-auto space-y-4">
-                                <h1 className="lg:text-6xl text-3xl font-bold ">Web Analytics from 2030</h1>
+                                <h1 className="lg:text-6xl text-3xl font-bold ">Top 10 Web Analytics Tools</h1>
                                 <div className="flex flex-wrap space-x-1 text-sm dark:text-gray-700">
                                     <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#Analytics</a>
                                     <a rel="noopener noreferrer" href="/" className="p-1 hover:underline">#UserBehaviour</a>

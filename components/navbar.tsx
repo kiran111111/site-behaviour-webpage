@@ -24,8 +24,8 @@ const solutions = [
 ]
 
 const features = [
-  { name: 'Heatmap',value:'heatmap' , description: 'Visualize user engagement with click , scroll and mouse-move heatmaps.', href: '/features/heatmap', icon: '/solution/allfeaturesicons/fire.svg' },
-  { name: 'Session Recordings',value:'recordings' , description: "Unlock the power of insight with session recordings.", href: '/features/recordings', icon: '/assets/play.svg'  },
+  { name: 'Heatmaps',value:'heatmap' , description: 'Visualize user engagement with click , scroll and mouse-move heatmaps.', href: '/features/heatmap', icon: '/solution/allfeaturesicons/fire.svg' },
+  { name: 'Session Replays',value:'recordings' , description: "Unlock the power of insight with Session Replays.", href: '/features/session-replay', icon: '/assets/play.svg'  },
   { name: 'Flexible Funnels',value:'funnels' , description: "Optimize your conversions with custom funnels.", href: '/features/funnels', icon: '/solution/allfeaturesicons/sales-funnel.svg' },
   { name: 'User Journey',value:'features' , description: 'Graphically see how people are navigating your website and the paths they took.', href: '/features/user-journey-map', icon: '/solution/allfeaturesicons/journey.svg'  },
   { name: 'Slack & Email report',value:'features' , description: 'Stay informed and in control with our concise email & Slack reports.', href: '/features/report', icon: '/solution/allfeaturesicons/arroba.svg' },
