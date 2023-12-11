@@ -4,6 +4,7 @@ import CTA2Section from "../../components/home /cta2"
 
 import Head from 'next/head'
 import FeaturesSection from "../../components/solution/all-features-section"
+import SolutionDescription from "../../components/solution/description"
 
 import { FaEye, FaRegLightbulb } from "react-icons/fa";
 import { TbArrowWaveRightDown } from 'react-icons/tb'
@@ -164,6 +165,8 @@ export default function ProductTeams() {
 
 
             <FeaturesSection />
+
+            <SolutionDescription />
 
             <CTA2Section />
             <Footer />
