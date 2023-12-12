@@ -17,8 +17,8 @@ export default function ProductTeams() {
 
 
             <Head>
-                <title> Product Teams | SiteBehaviour: Tailored Visualization | Analysis</title>
-                <meta name="description" content="Elevate your team's decicion- making with our data driven insights" />
+                <title> Product Teams | SiteBehaviour: Solutions | Used Cases</title>
+                <meta name="description" content="Elevate your product team's decicion- making with our data driven insights" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <meta char-set="UTF-8"></meta>
                 <link rel="icon" href="/assets/favicon.png" />
@@ -73,9 +73,9 @@ export default function ProductTeams() {
 
                             <div className="max-w-xl lg:pr-16 mx-auto mb-10">
                                 <h5 className="mb-6 text-3xl text-black font-extrabold ">
-                                    Enhance decision-making with trustworthy insights derived from real user data.
+                                    Enhance decision-making with trustworthy insights
                                 </h5>
-                                <p className="mb-8 font-light lg:text-xl text-gray-500">
+                                <p className="mb-8 font-light lg:text-lg text-gray-500">
                                     Use data to make your product the best it can be. Uncover new opportunities, smooth out your development process, and create products your users will rave about
                                 </p>
                                 <div className="flex items-center">
@@ -153,7 +153,10 @@ export default function ProductTeams() {
                                 </ul>
                                 <p className="mb-8 font-light lg:text-xl">By leveraging web analytics tools, product teams can make informed decisions, continuously improve their products, and create a more user-centric and successful digital experience.</p>
                             </div>
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/feature-1.png" alt="dashboard feature image"></img>
+                            <div className="text-center">
+                                <img className="hidden w-2/3 mb-4 mx-auto rounded-lg lg:mb-0 lg:flex"
+                                src="/solution/product/increase.svg" alt="dashboard feature image"></img>
+                             </div>
                         </div>
 
                     </div>

@@ -17,13 +17,13 @@ const navigation = [
 ]
 
 const solutions = [
-  { name: 'Startups', value: 'solution', description: 'Empower your startup to get more user conversions', href: '/solutions', icon: '/assets/navbar/rocket (1).svg' },
+  { name: 'Startups', value: 'solution', description: 'Empower your startup to get more user conversions', href: '/solutions/startups', icon: '/assets/navbar/rocket (1).svg' },
   {
     name: 'Product Teams', value: 'solution', description: "Elevate your team's decicion- making with our data driven insights",
     href: '/solutions/product-teams', icon: '/assets/navbar/cube (1).svg'
   },
-  { name: 'UI/UX Designers', value: 'solution', description: "Increase conversions by optimizing UI/UX with our tools.", href: '/solutions', icon: '/assets/navbar/layout (1).svg' },
-  { name: 'Marketing Teams', value: 'solution', description: 'Fine tune your marketing startegies for optimal results', href: '/solutions', icon: '/assets/navbar/loud-speaker.svg' },
+  { name: 'UI/UX Designers', value: 'solution', description: "Increase conversions by optimizing UI/UX with our tools.", href: '/solutions/ui-ux-designers', icon: '/assets/navbar/layout (1).svg' },
+  { name: 'Marketing Teams', value: 'solution', description: 'Fine tune your marketing startegies for optimal results', href: '/solutions/marketing-teams', icon: '/assets/navbar/loud-speaker.svg' },
 ]
 
 const features = [

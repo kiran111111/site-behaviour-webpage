@@ -28,7 +28,7 @@ export default function Description(){
                                 <div className="flex items-center justify-center w-14 h-14 mb-6 rounded-md ">
                                    <img src="/solution/feature-icon-3.svg" className="p-0" />
                                 </div>
-                                <h6 className="mb-5 text-2xl font-custommedium leading-5 text-black">Monitor Marketing Campaigns</h6>
+                                <h6 className="mb-5 text-2xl font-custommedium leading-[1.2] text-black">Monitor Marketing Campaigns</h6>
                                 <p className="mb-6 text-md text-zinc-600 leading-relaxed">
                                     Monitor the change in traffic as your campaign is running. Measure the proportion of unique vs returning visitors.
                                     <br></br>
@@ -45,7 +45,7 @@ export default function Description(){
                             
                             <div className=" bg-pink-100 p-8 mb-6 md:mb-12 rounded-xl">
                                 <div className="flex items-center justify-center w-14 h-14 mb-6 rounded-md ">
-                                   <img src="solution/feature-icon-1.svg" className="p-0" />
+                                   <img src="/solution/feature-icon-1.svg" className="p-0" />
                                 </div>
                                 <h6 className="mb-5 text-2xl font-custommedium leading-5 text-black">Funnel Optimization</h6>
                                 <p className="mb-6 text-md text-zinc-600 leading-relaxed">
