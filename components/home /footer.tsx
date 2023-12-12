@@ -17,7 +17,7 @@ export default function Footer() {
                 <div className="mt-2 lg:max-w-sm " data-aos="fade-up" data-aos-duration="700">
                     <div className="flex items-center mt-1 space-x-3">
                 <a
-                    href="/https://twitter.com/sitebehaviour"
+                    href="https://twitter.com/sitebehaviour"
                     className="text-white transition-colors duration-300 hover:text-indigo-300"
                 >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
