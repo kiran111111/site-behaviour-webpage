@@ -44,9 +44,9 @@ export default function MarketingTeams() {
                                     solutions
                                 </p>
                             </div>
-                            <h2 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
+                            <h1 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
                             Elevate Marketing Strategies with Web Analytics
-                            </h2>
+                            </h1>
                             <p className="text-base text-gray-200 md:text-lg">
                             Uncover the magic of understanding your audience, fine-tuning campaigns,tracking conversions and crafting a website that offers a seamless user experience  driven by insightful data .
                             </p>
@@ -77,9 +77,9 @@ export default function MarketingTeams() {
                     <div className="flex flex-col lg:flex-row">
 
                         <div className="max-w-xl lg:pr-16 mx-auto mb-10">
-                            <h5 className="mb-6 text-3xl text-black font-extrabold ">
+                            <h2 className="mb-6 text-3xl text-black font-extrabold ">
                             Transformative Strategies Through Analytics
-                            </h5>
+                            </h2>
                             <p className="mb-8 font-light lg:text-lg text-gray-500">
                             Celebrate wins, track conversions, and redefine your marketing strategies with the power of web analytics. 
                             </p>

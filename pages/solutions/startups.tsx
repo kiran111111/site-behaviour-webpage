@@ -41,9 +41,9 @@ export default function Startups() {
                                         solutions
                                     </p>
                                 </div>
-                                <h2 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
+                                <h1 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
                                 Empowering Startups and Small Teams with Web Analytics Insights
-                                </h2>
+                                </h1>
                                 <p className="text-base text-gray-200 md:text-lg">
                                 Discover how web analytics tools can be your secret weapon, providing actionable insights that drive growth, refine strategies, and transform your digital presence. 
                                 </p>
@@ -74,9 +74,9 @@ export default function Startups() {
                         <div className="flex flex-col lg:flex-row">
 
                             <div className="max-w-xl lg:pr-16 mx-auto mb-10">
-                                <h5 className="mb-6 text-3xl text-black font-extrabold ">
+                                <h2 className="mb-6 text-3xl text-black font-extrabold ">
                                 Fueling Growth with Analytics Precision
-                                </h5>
+                                </h2>
                                 <p className="mb-8 font-light lg:text-lg text-gray-500">
                                 Embark on a journey of growth with web analytics as your navigator. For startups and small teams, these tools are like having a personal guide—showing you where your audience is, what they love, and how to tailor your strategies for maximum impact. It's not just data; it's the roadmap to informed growth.
                                 </p>

@@ -20,17 +20,17 @@ export default function CTA2Section() {
                  <div className="flex items-center justify-center  sm:flex-row flex-col ">
                     <a
                         href="/getstarted"
-                        className="inline-flex items-center mb-4 sm:mr-6  justify-center h-12 px-6  font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none "
+                        className="inline-flex  items-center mb-4 sm:mr-6  justify-center h-12 px-6  font-custommedium tracking-wide text-black transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none "
                     >
                         Get started
                     </a>
-                    <a
+                    {/* <a
                         href="/features/heatmap"
                         
                         className="inline-flex mx-auto items-center b2  mb-4 justify-center h-12 px-6  font-medium tracking-wide text-white transition duration-200 rounded shadow-md border-white hover:bg-white hover:text-black focus:shadow-outline focus:outline-none"
                     >
                         Learn more
-                    </a>
+                    </a> */}
                  
                 </div>
          

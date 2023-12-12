@@ -39,9 +39,9 @@ export default function ProductTeams() {
                                         solutions
                                     </p>
                                 </div>
-                                <h2 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
+                                <h1 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
                                     Unlock the Power of Data for Your Product Team
-                                </h2>
+                                </h1>
                                 <p className="text-base text-gray-200 md:text-lg">
                                     Discover the magic of SiteBehaviour.com, where we turn data into your product's best friend. Ready to revolutionize how your product team works? Let's dive in!
                                 </p>
@@ -72,9 +72,9 @@ export default function ProductTeams() {
                         <div className="flex flex-col lg:flex-row">
 
                             <div className="max-w-xl lg:pr-16 mx-auto mb-10">
-                                <h5 className="mb-6 text-3xl text-black font-extrabold ">
+                                <h2 className="mb-6 text-3xl text-black font-extrabold ">
                                     Enhance decision-making with trustworthy insights
-                                </h5>
+                                </h2>
                                 <p className="mb-8 font-light lg:text-lg text-gray-500">
                                     Use data to make your product the best it can be. Uncover new opportunities, smooth out your development process, and create products your users will rave about
                                 </p>

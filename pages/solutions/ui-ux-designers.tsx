@@ -40,9 +40,9 @@ export default function UIUXDesigners() {
                                         solutions
                                     </p>
                                 </div>
-                                <h2 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
+                                <h1 className="max-w-lg mb-6 sm:leading-[1.2]  text-3xl font-custombold  text-gray-100 sm:text-5xl ">
                                     Elevating UI/UX Design with Web Analytics Insights
-                                </h2>
+                                </h1>
                                 <p className="text-base text-gray-200 md:text-lg">
                                 Discover how web analytics tools can be your design superpower, transforming your creative process and ensuring designs that users love. Let's explore how these tools empower UI/UX designers for success!
                                 </p>
@@ -73,9 +73,9 @@ export default function UIUXDesigners() {
                         <div className="flex flex-col lg:flex-row">
 
                             <div className="max-w-xl lg:pr-16 mx-auto mb-10">
-                                <h5 className="mb-6 text-3xl text-black font-extrabold ">
+                                <h2 className="mb-6 text-3xl text-black font-extrabold ">
                                    Unveiling Design Precision with Web Analytics
-                                </h5>
+                                </h2>
                                 <p className="mb-8 font-light lg:text-lg text-gray-500">
                                 Welcome to a realm of precision in design. Our web analytics tools are not just tools—they're your design accomplices. Dive into a world where understanding user behavior, optimizing user journeys, and crafting responsive designs are at your fingertips, transforming your UI/UX designs into seamless masterpieces.
                                 </p>
