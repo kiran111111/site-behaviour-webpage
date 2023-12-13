@@ -23,8 +23,10 @@ export default function About() {
         height: '',
         shadow: '0',
         tilt: '0',
-        size: '1',
-        background: 'linear-gradient(135deg, rgb(249, 240, 71), rgb(15, 216, 80))'
+        size: '0.7',
+        border: '6px solid black',
+        background: 'linear-gradient(135deg, rgb(249, 240, 71), rgb(15, 216, 80))',
+        boxShadow: '0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16)'
     })
 
     const [tilt, setTilt] = useState('0')
@@ -80,7 +82,7 @@ export default function About() {
 
             <div className="h-screen flex bg-[#0d0d0d]  ">
 
-                <div className='w-80 bg-[#1d1d1e] text-gray-50 p-3 m-3 rounded-2xl overflow-y-scroll '>
+                <div className='w-80 min-w-[200px] bg-[#1d1d1e] text-gray-50 p-3 m-3 rounded-2xl overflow-y-scroll overflow-x-hidden '>
 
                     {/* <h1 className='text-lg font-customsemibold   '>Variables</h1> */}
                     <div className=''>
@@ -105,10 +107,28 @@ export default function About() {
                                 <input onChange={(e) => {
                                     console.log(e.target.value)
                                     setVariables({ ...variables, size: e.target.value })
-                                }} type="range" className="win10-thumb" min={0} step={0.1}
+                                }} type="range" className="win10-thumb" min={0.5} step={0.1}
                                     max={2} />
                             </>
                         </div>
+
+                        <p className='text-gray-500 font-customsemibold text-xs mt-8'>BORDERS</p>
+                        <div className='grid grid-cols-3 gap-4 mb-12 mt-4'>
+                            {[
+                                '6px solid black',
+                                '6px solid black',
+                                '6px solid white'
+                            ].map((e) => (
+                                <div style={{
+                                    border: '3px solid black',
+                                }}
+                                    onClick={() => setVariables({ ...variables, border: e })}
+                                    className='cursor-pointer rounded-md h-10 active '>
+
+                                </div>
+                            ))}
+                        </div>
+
                         <p className='text-gray-500 font-customsemibold text-xs mt-8'>GRADIENTS</p>
                         <div className='grid grid-cols-3 gap-4 mb-12 mt-4'>
                             {[
@@ -126,26 +146,27 @@ export default function About() {
                             ))}
                         </div>
 
-                        <p className='text-gray-500 font-customsemibold text-xs mt-8'>ORIENTATION</p>
-                        <div className='grid grid-cols-1 gap-4 mb-12 mt-4'>
+                        <p className='text-gray-500  font-customsemibold text-xs mt-8'>ORIENTATION</p>
+                        <div className=' mb-12 mt-4 flex flex-col gap-y-4'>
                             {[
-                                'linear-gradient(135deg, rgb(249, 240, 71), rgb(15, 216, 80))',
-                                'linear-gradient(140deg, rgb(244, 229, 240), rgb(229, 54, 171), rgb(92, 3, 188), rgb(14, 7, 37))',
+                                '0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16)',
+                                '0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14)',
                                 'linear-gradient(135deg, rgb(10, 207, 254), rgb(73, 90, 255))'
                             ].map((e) => (
-                                <div style={{ background: variables.background }} className='h-full w-full p-16 flex justify-center overflow-hidden'>
+                                <div
+                                    onClick={() => setVariables({ ...variables, boxShadow: e })}
+                                    style={{ background: variables.background, boxShadow: e }}
+                                    className='aspect-[4/3] active   cursor-pointer h-[80%] w-full p-4 flex justify-center overflow-hidden'>
                                     <img
                                         alt="Uploaded"
                                         style={{
                                             // transform: `rotate(${tilt}deg)`,
                                             transform: 'rotate(15deg)',
-                                            borderRadius: `${variables.rounded}px`,
+                                            borderRadius: `${parseInt(variables.rounded) / 2}px`,
                                             maxWidth: '100%',
                                             height: '100%',
                                             scale: `${variables.size}`,
-
-                                            boxShadow: '0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);'
-
+                                            border: `${variables.border}`,
                                         }}
                                         className={`
                                         origin- center
@@ -165,42 +186,45 @@ export default function About() {
                 </div>
 
 
-                <div className='flex-1 bg-[#0d0d0d] h-screen text-gray-50  px-20'>
+                <div className='flex-1 bg-[#0d0d0d]  text-gray-50  px-20 mx-[10%] mt-[10%] '>
                     <div ref={ref}
-                        style={{ background: variables.background }}
-                        className='    bg-white h-[80%]     mx-auto   mt-[10%]' >
+                        style={{
+                            background: variables.background, transition: 'all .2s ease'
+                        }}
+                        className='    bg-white aspect-[4/3]  mx-auto   ' >
 
 
 
                         {
-                            // image ?
-                            <div className='h-full w-full p-16 flex justify-center overflow-hidden'>
-                                <img
-                                    alt="Uploaded"
-                                    style={{
-                                        // transform: `rotate(${tilt}deg)`,
-                                        transform: 'rotate(15deg)',
-                                        borderRadius: `${variables.rounded}px`,
-                                        maxWidth: '100%',
-                                        height: '100%',
-                                        scale: `${variables.size}`,
+                            image ?
+                                <div className='h-full w-full p-16  justify-center overflow-hidden' >
+                                    <img
+                                        alt="Uploaded"
+                                        style={{
+                                            // transform: `rotate(${tilt}deg)`,
+                                            transform: 'rotate(15deg)',
+                                            borderRadius: `${variables.rounded}px`,
+                                            maxWidth: '100%',
+                                            height: '100%',
+                                            scale: `${variables.size}`,
+                                            border: `${variables.border}`,
+                                            boxShadow: `${variables.boxShadow}`,
+                                            transition: 'all 0.3s ease'
 
-                                        boxShadow: '0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);'
-
-                                    }}
-                                    className={`
+                                        }}
+                                        className={`
                                         origin- center
                                         shadow-[0_0px_20px_0px_rgba(0,0,0,0.3)]
                                         
                                       `}
-                                    src={'https://images.unsplash.com/photo-1702288135917-bcb48253d2eb?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
+                                        src={image}
+                                    />
+                                </div>
+                                :
+                                <input
+                                    type="file" className="w-full h-full" onChange={handleImageChange}
+                                    accept=" image /png, image/gif, image/jpeg"
                                 />
-                            </div>
-                            //         :
-                            // <input
-                            //     type="file" className="w-full h-full" onChange={handleImageChange}
-                            //     accept=" image /png, image/gif, image/jpeg"
-                            // />
                         }
 
 
@@ -227,7 +251,7 @@ export default function About() {
 
 
 
-            <Footer />
+            {/* <Footer /> */}
 
         </div >
     )
